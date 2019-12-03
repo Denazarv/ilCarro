@@ -1,3 +1,7 @@
+html, body {
+    height: 100%;
+}
+
 @font-face {
     font-family: 'Bebas Neue';
     src: url('fonts/BebasNeueBold.eot');
@@ -9,12 +13,58 @@
     font-weight: bold;
     font-style: normal;
 }
-.nav_header {
-    position: relative;
-    background: #062639;
-    width: 100%;
-    height: 80px;
+
+.section{
+    height: 100vh;
+}
+
+.container {
+    max-width: 80vw;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header{
+    background-color: #062639;
+    box-shadow: 0px 3px 6px black;
+}
+.header_inner{
     display: flex;
-    overflow: hidden;
+    justify-content: space-between;
     align-items: center;
+    min-height: 9vh;
+}
+
+.btn_menu {
+    width: 40px;
+    display: none;
+}
+
+.btn_menu div {
+    height: 5px;
+    background-color: #fff;
+    margin-bottom: 5px;
+}
+
+.menu_list{
+    display: flex;
+}
+
+.menu_list li{
+    padding-left: 2.8vmax;
+}
+
+.menu_list a{
+    font: Bold 16px Raleway;
+    color: white;
+    text-decoration: none;
+    padding: 14px 23px 45px;
+}
+
+.menu_list a:hover{
+    background-color:#EA2340;
+}
+
+.menu_list a:active{
+    background-color:#EA2340;
 }
