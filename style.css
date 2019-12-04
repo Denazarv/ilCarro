@@ -27,8 +27,10 @@ html, body {
 }
 
 .header{
+    position: relative;
     background-color: #062639;
     box-shadow: 0 3px 6px black;
+    z-index: 50;
 }
 .header_inner{
     display: flex;
@@ -56,7 +58,7 @@ html, body {
     font: Bold 1vmax Raleway;
     color: white;
     text-decoration: none;
-    padding: 14px 23px 30px;
+    padding: 2.3vh 1.7vw 5vh;
 }
 
 .menu_list a:hover{
@@ -67,14 +69,9 @@ html, body {
     background-color:#EA2340;
 }
 
-/*_________________________________________________________________________________*/
-
-
-
 .image_reg {
     position: relative;
     width: 100%;
-    height: 750px;
 }
 
 .main-image {
@@ -85,64 +82,59 @@ html, body {
     width: 100%;
 }
 
-.reg {
+.main_find {
     position: absolute;
-    margin-top: 100px;
+    margin-top: 17vh;
     max-width: 100%;
-    width: 600px;
-    height: 410px;
+    width: 31.7vw;
+    height: 43vh;
     background-color: white;
-    box-shadow: 0px 3px 6px #0000005F;
+    box-shadow: 0 3px 6px #0000005F;
+}
 
+form{
+    margin-left: 10vw;
+}
+
+.find_title{
+    font-family: Raleway, sans-serif;
+    font-weight: 900;
+    font-size: 3.6vh;
+    color: #EA2340;
+    padding-top:4vh;
+    margin-bottom: 1px;
+}
+.find_under_title {
+    font-family: Raleway, sans-serif;
+    font-size: 0.8vw;
+    color: #06263998;
+    margin-bottom: 2.84vh;
 }
 
 input[type=text], select {
-    width: 350px;
-    padding: 12px 20px;
-    margin-bottom: 8px;
-    margin-left: 80px;
+    width: 17.5vw;
+    height: 5.6vh;
+    padding-left: 0.43vw;
+    padding-top: 2.2vh;
+    margin-bottom: 0.8vh;
     border: 1px solid #5F727E;
     box-sizing: border-box;
-    padding: 25px 20px 10px 10px;
-    font-family: Raleway;
-    font-size: 13px;
+    font-family: Raleway, sans-serif;
+    font-size: 1.5vh;
     color: #06263998;
 }
 
-#location #from #till ::placeholder{
-    color: red;
-}
-
-
-.regLogSignTopHeader{
-    font-family: Raleway;
-    font-size: 30px;
-    color: #EA2340;
-    padding-left: 80px;
-}
-.regLogSignBotHeader {
-    font-family: Raleway;
-    font-size: 30px;
-    color: #EA2340;
-    padding-left: 80px;
-}
-
-
-button {
+.main_find button {
     border: 0;
-    margin-left: 90px;
-    margin-top: 20px;
-    padding-bottom: 40px;
-    width: 190px;
-    height: 90px;
+    margin-left: 0.43vw;
+    margin-top: 2.5vh;
+    padding-bottom: 6vh;
+    width: 9.7vw;
+    height: 10vh;
     background-color: #EA2340;
-    font: bold 18px Raleway;
+    font: bold 2vh Raleway;
     color: white;
     cursor: pointer;
 }
 
-
-input[type=button]:hover {
-    background-color: #45a049;
-}
 
