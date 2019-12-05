@@ -65,13 +65,13 @@ html, body {
     background-color:#EA2340;
 }
 
-.menu_list a:active{
+.menu_list .active{
     background-color:#EA2340;
 }
-
+/*======================================== main page============================*/
 /*======================================== find your car section ============================*/
 
-.image_reg {
+.image_find {
     background-image: url("img/742079-PSISLA-798.png");
     background-size: cover;
     position: relative;
@@ -536,4 +536,65 @@ input[type=text], select {
     text-decoration: none;
     color: #FFFFFF;
     font: 1.8vh Raleway;
+}
+
+/*======================================== registration page ============================*/
+
+.reg_form {
+    position: absolute;
+    right: 0;
+    max-width: 100%;
+    width: 31.7vw;
+    height: 100vh;
+    background-color: white;
+    box-shadow: 0 3px 6px #0000005F;
+}
+
+.reg_form button {
+    border: 0;
+    margin-left: 3.86vw;
+    margin-top: 5.49vh;
+    width: 9.76vw;
+    height: 5.45vh;
+    background-color: #EA2340;
+    font: bold 2vh Raleway;
+    color: white;
+    cursor: pointer;
+}
+
+.reg_title{
+    font-family: Raleway, sans-serif;
+    font-weight: 900;
+    font-size: 3.6vh;
+    color: #EA2340;
+    padding-top:12.38vh;
+    margin-bottom: 1px;
+}
+
+.back_img {
+    background-image: url("img/742079-PSISLA-798.png");
+    background-position: right bottom;
+    background-size: cover;
+    width: 67vw;
+    height: 86vh;
+}
+
+.registration{
+    margin-left: 3.86vw;
+}
+
+.reg_check{
+    font-family: Raleway, sans-serif;
+    font-size: 1.7vh;
+    color: #06263998;
+    margin-top: 3vh;
+    margin-left: 3.7vw;
+}
+
+.reg_check a{
+    color: #06263998;
+}
+
+#name, #last_name, #email, #pass{
+    margin-bottom: 1.7vh;
 }

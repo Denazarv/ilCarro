@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>FindYourCarNow</title>
+    <title>SignUp</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,700,900&display=swap" rel="stylesheet">
@@ -15,7 +15,7 @@
     <div class="container">
         <div class="header_inner">
             <div class="logo">
-                <a href="#">
+                <a href="main.html">
                     <img src="img/logo2.png" alt="logo">
                 </a>
             </div>
@@ -29,7 +29,7 @@
                     <li><a href="#">Search</a></li>
                     <li><a href="#">Let the car work</a></li>
                     <li><a href="#">Terms of use</a></li>
-                    <li><a href="signup.html">Sign up</a></li>
+                    <li><a class="active" href="#">Sign up</a></li>
                     <li><a href="#">Log in</a></li>
                 </ul>
             </nav>
@@ -38,17 +38,22 @@
 </header>
 
 <!--///////////////////////////// page start ////////////////////////////////-->
+<div class="back_img">
 
-<div class="image_find">
-    <div class="main_find">
-        <form style="alignment: center">
-            <p class="find_title">Find your car now!</p>
+
+    <div class="reg_form">
+        <form class="registration" style="alignment: center">
+            <p class="reg_title">Registration</p>
             <p class="find_under_title">Type your data and hit Yalla!</p>
-            <input type="text" id="location" placeholder="Location">
-            <input type="text" id="from" placeholder="From">
-            <input type="text" id="till" placeholder="Till">
-            <button type="submit">Y’alla!</button>
+            <input type="text" id="name" placeholder="Name">
+            <input type="text" id="last_name" placeholder="Last name">
+            <input type="text" id="email" placeholder="Email">
+            <input type="text" id="pass" placeholder="Password"><br>
         </form>
+        <div class="reg_check">
+            <input type="checkbox" id="reg_check"> I agree to the <a href="#"><u>terms of use</u></a> and <a href="#"><u>privacy policy</u></a>.
+        </div>
+        <button type="submit">Y’alla!</button>
     </div>
 </div>
 
