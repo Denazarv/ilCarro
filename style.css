@@ -397,3 +397,143 @@ input[type=text], select {
     color: #06263998;
     font: 400 1.47vh Raleway;
 }
+
+/*======================================== footer ============================*/
+
+
+.footer {
+    background: #062639;
+    width: 100%;
+    height: 50.66vh;
+    overflow: hidden;
+}
+.footer_top {
+    padding-top: 5.1vh;
+    padding-left: 8.3vw;
+    display: flex;
+    max-width:  100%;
+}
+
+.footer_desc {
+    float: right;
+    position: relative;
+    width: 31.59vw;
+    font: 1.8vh Raleway;
+    color: white;
+}
+
+.logo {
+    margin-left: 5.2vw;
+    margin-top: 0.8vh;
+    padding-right: 18.7vw;
+
+}
+
+.social {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.social img {
+    width: 1.46vmax;
+    margin: 0 0.9vw;
+}
+.footer_bottom {
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+}
+.red_block {
+    background: #EA2340;
+    width: 65%;
+    height: 39.76vh;
+    margin-top: 4.5vh;
+    clip-path: polygon(0 0, 50% 0, 100% 100%, 0% 100%);
+}
+
+.red_block_text {
+    padding-left: 10%;
+    padding-top: 10%;
+    font: Bold 6.13vh Bebas Neue;
+    color: white;
+    text-transform: capitalize;
+}
+
+.rightInfo {
+    width: 40.17vw;
+}
+
+.nav_menu_footer {
+    padding-top: 4.54vh;
+    display: flex;
+}
+
+
+.nav_menu_footer p{
+    font: Bold 1.81vh Raleway;
+    text-align: center;
+    color: white;
+    padding-left: 1vw;
+    padding-right: 1.8vw;
+}
+
+.line {
+    padding-top: 1.1vh;
+    padding-bottom: 4.5vh;
+    padding-right: 8.35vw;
+    width: 35.8vw;
+    float: right;
+}
+
+.citiesAndTel {
+    width: 100%;
+    display: flex;
+}
+
+.cities {
+    width: 40%;
+}
+
+.numberAndContact {
+    width: 60%;
+}
+
+.topCities {
+    font: 1.8vh Raleway;
+    color: white;
+    padding-left: 1vw;
+}
+.capitals {
+    padding-top: 0.2vh;
+    column-count: 2;
+    column-width: min-content;
+    width: 12.9vw;
+    padding-left: 1vw;
+}
+
+.telephone {
+    float: right;
+    width: 14.5vw;
+    font: Bold 4.9vh Bebas Neue;
+    text-transform: capitalize;
+    color: #EA2340;
+    padding-right: 8.35vw;
+    text-align: right;
+}
+
+.address {
+    float: right;
+    width: 31.59vw;
+    font: 1.8vh Raleway;
+    color: white;
+    text-align: right;
+    padding-right: 8.35vw;
+    padding-top: 3.2vh;
+}
+
+.capitals li, a{
+    list-style-type: none;
+    text-decoration: none;
+    color: #FFFFFF;
+    font: 1.8vh Raleway;
+}
