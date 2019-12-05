@@ -560,6 +560,7 @@ input[type=text], select {
     font: bold 2vh Raleway;
     color: white;
     cursor: pointer;
+    box-shadow: 0 3px 6px #00000052;
 }
 
 .reg_title{
@@ -597,4 +598,13 @@ input[type=text], select {
 
 #name, #last_name, #email, #pass{
     margin-bottom: 1.7vh;
+}
+
+/*======================================== login page ============================*/
+.log_forgot{
+    color: #06263998;
+    font-family: Raleway, sans-serif;
+    font-size: 1.7vh;
+    margin-top: 20.10vh;
+    margin-left: 3.86vw;
 }
