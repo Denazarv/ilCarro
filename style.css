@@ -688,3 +688,105 @@ input[type=text], select {
 .car-det-perday{
     margin-top: 6.58vh;
 }
+
+/*==========================================Still available in your area==========================*/
+
+.still{
+    display: flex;
+    margin-top: 9.31vh;
+}
+
+.slider {
+    background-image: url("img/big_azlk.png");
+    background-size: cover;
+    /*position: relative;*/
+    margin-left: 8.31vw;
+    margin-right: 0.5vw;
+    width: 55.14vw;
+    height: 68.5vh;
+}
+
+.main_find {
+    position: absolute;
+    margin-top: 17vh;
+    max-width: 100%;
+    width: 31.7vw;
+    height: 43vh;
+    background-color: white;
+    box-shadow: 0 3px 6px #0000005F;
+}
+
+form {
+    margin-left: 10vw;
+}
+
+.find_title {
+    font-family: Raleway, sans-serif;
+    font-weight: 900;
+    font-size: 3.6vh;
+    color: #EA2340;
+    padding-top: 4vh;
+    margin-bottom: 1px;
+}
+
+.find_under_title {
+    font-family: Raleway, sans-serif;
+    font-size: 0.8vw;
+    color: #06263998;
+    margin-bottom: 2.84vh;
+}
+
+input[type=text], select {
+    width: 17.5vw;
+    height: 5.6vh;
+    padding-left: 0.43vw;
+    padding-top: 2.2vh;
+    margin-bottom: 0.8vh;
+    border: 1px solid #5F727E;
+    box-sizing: border-box;
+    font-family: Raleway, sans-serif;
+    font-size: 1.5vh;
+    color: #06263998;
+}
+
+.still_form button {
+    border: 0;
+    margin-left: 3.86vw;
+    margin-top: 2.5vh;
+    width: 9.7vw;
+    height: 6.5vh;
+    background-color: #EA2340;
+    font: bold 2vh Raleway;
+    color: white;
+    cursor: pointer;
+}
+
+.still_form {
+    width: 35.8vw;
+    height: 67.81vh;
+    background-color: white;
+    box-shadow: 0 3px 6px #0000005F;
+}
+
+.still_title {
+    font-family: Raleway, sans-serif;
+    font-weight: 900;
+    font-size: 3.6vh;
+    color: #EA2340;
+    margin-top: 7.25vh;
+    margin-bottom: 6.13vh;
+}
+
+.still_descr{
+    display: flex;
+    margin-left: 15.22vw;
+    margin-top: 3vh;
+    font: bold 6.13vh Bebas Neue;
+}
+
+.descr_year{
+    font: bold 3.63vh Bebas Neue;
+    color: #06263998;
+    padding-top: 2vh;
+    margin-left: 0.7vw;
+}
