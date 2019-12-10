@@ -14,7 +14,7 @@ html, body {
     font-style: normal;
 }
 
-.section{
+.section {
     height: 100vh;
     width: 100%;
 }
@@ -26,13 +26,14 @@ html, body {
 }
 
 /*======================================== header ============================*/
-.header{
+.header {
     position: relative;
     background-color: #062639;
     box-shadow: 0 3px 6px black;
     z-index: 50;
 }
-.header_inner{
+
+.header_inner {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -50,24 +51,25 @@ html, body {
     margin-bottom: 5px;
 }
 
-.menu_list{
+.menu_list {
     display: flex;
 }
 
-.menu_list a{
+.menu_list a {
     font: Bold 1vmax Raleway;
     color: white;
     text-decoration: none;
     padding: 2.3vh 1.7vw 5vh;
 }
 
-.menu_list a:hover{
-    background-color:#EA2340;
+.menu_list a:hover {
+    background-color: #EA2340;
 }
 
-.menu_list .active{
-    background-color:#EA2340;
+.menu_list .active {
+    background-color: #EA2340;
 }
+
 /*======================================== main page============================*/
 /*======================================== find your car section ============================*/
 
@@ -89,18 +91,19 @@ html, body {
     box-shadow: 0 3px 6px #0000005F;
 }
 
-form{
+form {
     margin-left: 10vw;
 }
 
-.find_title{
+.find_title {
     font-family: Raleway, sans-serif;
     font-weight: 900;
     font-size: 3.6vh;
     color: #EA2340;
-    padding-top:4vh;
+    padding-top: 4vh;
     margin-bottom: 1px;
 }
+
 .find_under_title {
     font-family: Raleway, sans-serif;
     font-size: 0.8vw;
@@ -176,7 +179,7 @@ input[type=text], select {
 }
 
 .middle_text {
-    width: 35% ;
+    width: 35%;
     padding-left: 3vw;
     font: 1.8vh Raleway;
     letter-spacing: 0;
@@ -223,7 +226,7 @@ input[type=text], select {
     padding-left: 8.5vw;
 }
 
-.most_text{
+.most_text {
     padding-left: 0.88vw;
     font: Bold 6.1vh Bebas Neue;
     letter-spacing: 0;
@@ -231,8 +234,8 @@ input[type=text], select {
     text-transform: capitalize;
 }
 
-.most_descr{
-    width: 33.37vw ;
+.most_descr {
+    width: 33.37vw;
     font: 1.82vh Raleway;
     letter-spacing: 0;
     color: #062639;
@@ -271,6 +274,7 @@ input[type=text], select {
 .car-box_img2 {
     left: 33%;
 }
+
 .car-box_img3 {
     left: 66%;
 }
@@ -283,20 +287,20 @@ input[type=text], select {
     width: 100%;
 }
 
-.car_names{
+.car_names {
     display: flex;
     width: 100%;
     justify-content: space-around;
     margin-top: -12vh;
 }
 
-.top1car, .top2car, .top3car{
+.top1car, .top2car, .top3car {
     color: white;
     text-transform: uppercase;
     font: Bold 3.63vh Bebas Neue;
 }
 
-.top1car{
+.top1car {
     margin-left: -2vw;
 }
 
@@ -305,7 +309,7 @@ input[type=text], select {
     height: 10.33vh;
     background: white;
     margin: auto;
-    box-shadow:  0 3px 6px #00000052;
+    box-shadow: 0 3px 6px #00000052;
     display: flex;
 }
 
@@ -349,7 +353,7 @@ input[type=text], select {
 }
 
 .feed_main_topic {
-    width: 30% ;
+    width: 30%;
     font: Bold 6.1vh Bebas Neue;
     letter-spacing: 0;
     color: white;
@@ -407,11 +411,12 @@ input[type=text], select {
     height: 50.66vh;
     overflow: hidden;
 }
+
 .footer_top {
     padding-top: 5.1vh;
     padding-left: 8.3vw;
     display: flex;
-    max-width:  100%;
+    max-width: 100%;
 }
 
 .footer_desc {
@@ -438,11 +443,13 @@ input[type=text], select {
     width: 1.46vmax;
     margin: 0 0.9vw;
 }
+
 .footer_bottom {
     display: flex;
     width: 100%;
     align-items: flex-start;
 }
+
 .red_block {
     background: #EA2340;
     width: 65%;
@@ -469,7 +476,7 @@ input[type=text], select {
 }
 
 
-.nav_menu_footer p{
+.nav_menu_footer p {
     font: Bold 1.81vh Raleway;
     text-align: center;
     color: white;
@@ -503,6 +510,7 @@ input[type=text], select {
     color: white;
     padding-left: 1vw;
 }
+
 .capitals {
     padding-top: 0.2vh;
     column-count: 2;
@@ -531,7 +539,7 @@ input[type=text], select {
     padding-top: 3.2vh;
 }
 
-.capitals li, a{
+.capitals li, a {
     list-style-type: none;
     text-decoration: none;
     color: #FFFFFF;
@@ -563,12 +571,12 @@ input[type=text], select {
     box-shadow: 0 3px 6px #00000052;
 }
 
-.reg_title{
+.reg_title {
     font-family: Raleway, sans-serif;
     font-weight: 900;
     font-size: 3.6vh;
     color: #EA2340;
-    padding-top:12.38vh;
+    padding-top: 12.38vh;
     margin-bottom: 1px;
 }
 
@@ -580,11 +588,11 @@ input[type=text], select {
     height: 86vh;
 }
 
-.registration{
+.registration {
     margin-left: 3.86vw;
 }
 
-.reg_check{
+.reg_check {
     font-family: Raleway, sans-serif;
     font-size: 1.7vh;
     color: #06263998;
@@ -592,19 +600,91 @@ input[type=text], select {
     margin-left: 3.7vw;
 }
 
-.reg_check a{
+.reg_check a {
     color: #06263998;
 }
 
-#name, #last_name, #email, #pass{
+#name, #last_name, #email, #pass {
     margin-bottom: 1.7vh;
 }
 
 /*======================================== login page ============================*/
-.log_forgot{
+.log_forgot {
     color: #06263998;
     font-family: Raleway, sans-serif;
     font-size: 1.7vh;
     margin-top: 20.10vh;
     margin-left: 3.86vw;
+}
+
+/*==========================================Let the Car work styles==========================*/
+
+.upload_form {
+    width: 100%;
+    list-style-type: none;
+}
+
+.upload_form .title_1 {
+    width: 33.31vw;
+    font: 900 3.63vh Raleway;
+    color: #EA2340;
+    padding-top: 11.81vh;
+}
+
+.upload_form .title_2 {
+    padding-top: 3.2vh;
+    width: 34vw;
+    font: 1.81vh Raleway;
+    color: #062639;
+    margin-bottom: 6.58vh;
+}
+
+.car_details p {
+    color: #062639;
+    font: 400 3.8vh Raleway;
+}
+
+.upload_form p {
+    margin-bottom: 3.4vh;
+}
+
+.car_details input {
+    width: 17vw;
+    margin-bottom: 3.2vh;
+    border: 1px solid #5F727E;
+    padding: 25px 20px 10px 10px;
+}
+
+.upload_form textarea {
+    width: 37.94vw;
+    height: 35.21vh;
+    resize: none;
+    padding: 25px 20px 10px 10px;
+    margin-bottom: 6.58vh;
+}
+
+.upload_form button {
+    border: 0;
+    /*margin-left: 3.86vw;*/
+    margin-top: 19.65vh;
+    margin-bottom: 19.62vh;
+    width: 9.76vw;
+    height: 5.45vh;
+    background-color: #EA2340;
+    font: bold 2vh Raleway;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 3px 6px #00000052;
+}
+
+.car-det{
+     margin-top: 6.58vh;
+ }
+
+.car-det-about{
+    margin-top: 13.85vh;
+}
+
+.car-det-perday{
+    margin-top: 6.58vh;
 }
