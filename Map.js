@@ -5,12 +5,27 @@ function initMap() {
     };
     let map = new google.maps.Map(document.getElementById('map'), mapOptions);
 
-    let ico = {
-
-    }
     let TelAviv = {lat: 32.073367, lng: 34.777674};
     let marker = new google.maps.Marker({
         position: TelAviv,
+        map: map,
+        title: 'Get this car!',
+        animation: google.maps.Animation.DROP,
+        icon: 'http://maps.google.com/mapfiles/kml/pal4/icon7.png'
+    });
+
+    let Rishon = {lat: 31.97102, lng: 34.78939};
+    let marker2 = new google.maps.Marker({
+        position: Rishon,
+        map: map,
+        title: 'Get this car!',
+        animation: google.maps.Animation.DROP,
+        icon: 'http://maps.google.com/mapfiles/kml/pal4/icon7.png'
+    });
+
+    let Rosh_haayin = {lat: 32.09556, lng: 34.95664};
+    let marker3 = new google.maps.Marker({
+        position: Rosh_haayin,
         map: map,
         title: 'Get this car!',
         animation: google.maps.Animation.DROP,
