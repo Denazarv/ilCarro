@@ -1183,3 +1183,12 @@ input[type='date']:after{
 
 /*========================================Search page  -  filters section=====================================*/
 
+select{
+    margin-bottom: 1.8vh;
+}
+
+option {
+    font-size: 2.4vh;
+}
+
+

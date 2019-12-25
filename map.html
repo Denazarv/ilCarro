@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Car Work</title>
+    <title>Filters Page</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,700,900&display=swap" rel="stylesheet">
-    <script src="Map.js"></script>
+    <script src="Map.js" defer></script>
 </head>
 <body>
 
@@ -39,36 +39,41 @@
 </header>
 
 <!--///////////////////////////// page start ////////////////////////////////-->
-<div class="main-search__content">
-
-    <div class="main-search__sidebar">
-        <a href="map.html">
-            <div class="map-sidebar__tab tab-first">
-                <p>Map</p>
+<div class="search_main">
+    <div class="search_sidebar">
+        <div class="sidebar_menu">
+            <div class="sidebar_menu_search" style="background-color: #6C7E8B">
+                <a href="map.html">
+                    <img src="icons/placeholder.png" alt="">
+                    <p>Map</p>
+                </a>
             </div>
-        </a>
-        <a href="filters.html">
-            <div class="map-sidebar__tab tab-second"></div>
-        </a>
-        <a href="search.html">
-            <div class="map-sidebar__tab tab-third"></div>
-        </a>
-        <div class="search-sidebar__content_map">
-            <div class="search-sidebar__inner map">
-                <!--The div element for the map -->
+            <div class="sidebar_menu_filters" style="background-color: #062639">
+                <a href="filters.html">
+                    <img src="icons/levels.png" alt="">
+                </a>
+            </div>
+
+            <div class="sidebar_menu_map" style="background-color: #EA2340">
+                <a href="search.html">
+                    <img src="icons/magnifying-glass.png" alt="">
+                </a>
+            </div>
+        </div>
+        <div class="sidebar_content" style="border-top:7px solid #6C7E8B; padding-left: 0; padding-top: 0; width: 32vw; height: 79vh">
+            <div id="search_map" style="width: 100%; height: 100%">
                 <div id="map"></div>
-            </div><!--./search-sidebar__inner -->
+            </div>
         </div>
     </div>
-
-    <div class="container">
-        <div class="main-search__car-items">
+    <div class="search_content">
+        <div class="search_cars">
             <div class="car-item">
                 <div class="car-item__image">
                     <img src="img/azlk2.png" alt="">
                 </div>
                 <div class="car-item__title">
-                    <h4>MERCEDES-BENZ G-CLASS <span>2019</span></h4>
+                    <h4>Zaporozhets G-CLASS <span>2019</span></h4>
                 </div>
                 <div class="car-item__price">
                     <span>180</span>
@@ -78,10 +83,10 @@
 
             <div class="car-item">
                 <div class="car-item__image">
-                    <img src="img/azlk2.png" alt="">
+                    <img src="img/zaz_full.png" alt="">
                 </div>
                 <div class="car-item__title">
-                    <h4>TESLA model x <span>2018</span></h4>
+                    <h4>ZAZ model x <span>2018</span></h4>
                 </div>
                 <div class="car-item__price">
                     <span>180</span>
@@ -91,20 +96,20 @@
 
             <div class="car-item">
                 <div class="car-item__image">
-                    <img src="img/azlk2.png" alt="">
+                    <img src="img/lambo.png" alt="">
                 </div>
                 <div class="car-item__title">
-                    <h4>MERCEDES-BENZ G-CLASS <span>2019</span></h4>
+                    <h4>Lamborghini Urus <span>2019</span></h4>
                 </div>
                 <div class="car-item__price">
-                    <span>180</span>
+                    <span>500</span>
                     <span class="car-item__price-termin">per day</span>
                 </div>
             </div>
 
             <div class="car-item">
                 <div class="car-item__image">
-                    <img src="img/azlk2.png" alt="">
+                    <img src="img/gaz_full.png" alt="">
                 </div>
                 <div class="car-item__title">
                     <h4>TESLA model x <span>2018</span></h4>
@@ -203,5 +208,8 @@
         </div>
     </div>
 </div>
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDUQ33eXb4Exjz_IN0jQXtpVfFjJoeP7T0&callback=initMap">
+</script>
 </body>
 </html>
