@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Search Page</title>
+    <title>Car Work</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,700,900&display=swap" rel="stylesheet">
@@ -38,56 +38,99 @@
 </header>
 
 <!--///////////////////////////// page start ////////////////////////////////-->
-<div class="search_main">
-    <div class="search_sidebar">
-        <div class="sidebar_menu">
-            <div class="sidebar_menu_search">
-                <a href="search.html">
-                    <img src="icons/magnifying-glass.png" alt="">
-                    <p>Search</p>
-                </a>
-            </div>
-            <div class="sidebar_menu_filters">
-                <a href="filters.html">
-                    <img src="icons/levels.png" alt="">
-                </a>
-            </div>
+<div class="main-search__content">
 
-            <div class="sidebar_menu_map">
-                <a href="map.html">
-                    <img src="icons/placeholder.png" alt="">
-                </a>
+    <div class="main-search__sidebar">
+        <a href="filters.html">
+            <div class="filters-sidebar__tab tab-first">
+                <p>Filters</p>
             </div>
-        </div>
-        <div class="sidebar_content">
-            <p>Find your car now!</p>
-            <div class="sidebar_content_form">
-                <input type="text" placeholder="Location">
-                <input type="date" name="from" placeholder="From">
-                <input type="date" name="till" placeholder="Till">
-            </div>
+        </a>
+        <a href="map.html">
+            <div class="filters-sidebar__tab tab-second"></div>
+        </a>
+        <a href="search.html">
+            <div class="filters-sidebar__tab tab-third"></div>
+        </a>
+        <div class="search-sidebar__content filters">
+            <div class="search-sidebar__inner">
+                <h3>Find your car now!</h3>
+                <div class="search-sidebar__form">
 
-            <h4>Sort by:</h4>
-            <div class="sidebar_sort">
-                <div class="sort_option_high active">
-                    <span>Price (low to high)</span>
+                    <label for="brand"></label>
+                    <select name="brand" id="brand">
+                        <option selected="selected">Brand</option>
+                        <option value="volvo">Volvo</option>
+                        <option value="saab">Saab</option>
+                        <option value="mercedes">Mercedes</option>
+                        <option value="audi">Audi</option>
+                    </select>
+
+                    <select name="model" id="model">
+                        <option selected="selected">Model</option>
+                        <option value="model1">model1</option>
+                        <option value="model2">model2</option>
+                        <option value="model3">model3</option>
+                        <option value="model4">model4</option>
+                    </select>
+
+                    <select name="year" id="Year">
+                        <option selected="selected">Year</option>
+                        <option value="Year1">Year1</option>
+                        <option value="Year2">Year2</option>
+                        <option value="Year3">Year3</option>
+                        <option value="Year4">Year4</option>
+                    </select>
+
+                    <select name="engine" id="engine">
+                        <option selected="selected">Engine</option>
+                        <option value="engine1">Volvo</option>
+                        <option value="engine2">Saab</option>
+                    </select>
+
+                    <select name="fuel" id="fuel">
+                        <option selected="selected">Fuel</option>
+                        <option value="fuel1">fuel1</option>
+                        <option value="fuel2">fuel2</option>
+                    </select>
+
+                    <select name="transmission" id="transmission">
+                        <option selected="selected">Transmission</option>
+                        <option value="transmission1">transmission1</option>
+                        <option value="transmission2">transmission2</option>
+                    </select>
+
+                    <select name="wd" id="wd">
+                        <option selected="selected">WD</option>
+                        <option value="wd1">WD1</option>
+                        <option value="wd2">WD2</option>
+                    </select>
+
+                    <select name="horsepower" id="horsepower">
+                        <option selected="selected">Horsepower</option>
+                        <option value="horsepower1">horsepower1</option>
+                        <option value="horsepower2">horsepower2</option>
+                    </select>
+
+                    <select name="fuel_consumption" id="fuel_consumption">
+                        <option selected="selected">Fuel consumption</option>
+                        <option value="fuel_consumption1">fuel_consumption1</option>
+                        <option value="fuel_consumption2">fuel_consumption2</option>
+                    </select>
                 </div>
-                <div class="sort_option_low">
-                    <span>Price (high to low)</span>
-                </div>
-            </div>
-            <h4>Price range ($/per day): <span>100 - 300</span></h4>
-            <input type="range" min="1" max="100" value="40" class="search_slider" id="myRange">
+
+            </div><!--./search-sidebar__inner -->
         </div>
     </div>
-    <div class="search_content">
-        <div class="search_cars">
+
+    <div class="container">
+        <div class="main-search__car-items">
             <div class="car-item">
                 <div class="car-item__image">
                     <img src="img/azlk2.png" alt="">
                 </div>
                 <div class="car-item__title">
-                    <h4>Zaporozhets G-CLASS <span>2019</span></h4>
+                    <h4>MERCEDES-BENZ G-CLASS <span>2019</span></h4>
                 </div>
                 <div class="car-item__price">
                     <span>180</span>
@@ -97,10 +140,10 @@
 
             <div class="car-item">
                 <div class="car-item__image">
-                    <img src="img/zaz_full.png" alt="">
+                    <img src="img/azlk2.png" alt="">
                 </div>
                 <div class="car-item__title">
-                    <h4>ZAZ model x <span>2018</span></h4>
+                    <h4>TESLA model x <span>2018</span></h4>
                 </div>
                 <div class="car-item__price">
                     <span>180</span>
@@ -110,20 +153,20 @@
 
             <div class="car-item">
                 <div class="car-item__image">
-                    <img src="img/lambo.png" alt="">
+                    <img src="img/azlk2.png" alt="">
                 </div>
                 <div class="car-item__title">
-                    <h4>Lamborghini Urus <span>2019</span></h4>
+                    <h4>MERCEDES-BENZ G-CLASS <span>2019</span></h4>
                 </div>
                 <div class="car-item__price">
-                    <span>500</span>
+                    <span>180</span>
                     <span class="car-item__price-termin">per day</span>
                 </div>
             </div>
 
             <div class="car-item">
                 <div class="car-item__image">
-                    <img src="img/gaz_full.png" alt="">
+                    <img src="img/azlk2.png" alt="">
                 </div>
                 <div class="car-item__title">
                     <h4>TESLA model x <span>2018</span></h4>

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Search Page</title>
+    <title>Filters Page</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,700,900&display=swap" rel="stylesheet">
@@ -41,43 +41,26 @@
 <div class="search_main">
     <div class="search_sidebar">
         <div class="sidebar_menu">
-            <div class="sidebar_menu_search">
-                <a href="search.html">
-                    <img src="icons/magnifying-glass.png" alt="">
-                    <p>Search</p>
-                </a>
-            </div>
-            <div class="sidebar_menu_filters">
+            <div class="sidebar_menu_search" style="background-color: #062639">
                 <a href="filters.html">
                     <img src="icons/levels.png" alt="">
+                    <p>Filters</p>
                 </a>
             </div>
-
-            <div class="sidebar_menu_map">
+            <div class="sidebar_menu_filters" style="background-color: #6C7E8B">
                 <a href="map.html">
                     <img src="icons/placeholder.png" alt="">
                 </a>
             </div>
-        </div>
-        <div class="sidebar_content">
-            <p>Find your car now!</p>
-            <div class="sidebar_content_form">
-                <input type="text" placeholder="Location">
-                <input type="date" name="from" placeholder="From">
-                <input type="date" name="till" placeholder="Till">
-            </div>
 
-            <h4>Sort by:</h4>
-            <div class="sidebar_sort">
-                <div class="sort_option_high active">
-                    <span>Price (low to high)</span>
-                </div>
-                <div class="sort_option_low">
-                    <span>Price (high to low)</span>
-                </div>
+            <div class="sidebar_menu_map" style="background-color: #EA2340">
+                <a href="search.html">
+                    <img src="icons/magnifying-glass.png" alt="">
+                </a>
             </div>
-            <h4>Price range ($/per day): <span>100 - 300</span></h4>
-            <input type="range" min="1" max="100" value="40" class="search_slider" id="myRange">
+        </div>
+        <div class="sidebar_content" style="border-top:7px solid #062639;">
+
         </div>
     </div>
     <div class="search_content">

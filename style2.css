@@ -33,10 +33,6 @@ html, body {
     z-index: 50;
 }
 
-.header .logo{
-    margin-left: 0;
-}
-
 .header_inner {
     display: flex;
     justify-content: space-between;
@@ -436,6 +432,7 @@ input[type=text], select {
     margin-left: 5.2vw;
     margin-top: 0.8vh;
     padding-right: 18.7vw;
+
 }
 
 .social {
@@ -892,258 +889,72 @@ iframe{
 
 /*========================================Search page  -  main section=====================================*/
 
-.search_main{
-    padding-top: 5vh;
+
+.main-search__content{
+    padding: 7.3vh 0 4.2vh;
     position: relative;
     width:100%;
     overflow: hidden;
-    display: flex;
 }
+/******/
 
-/*Sidebar-menu*/
-
-.sidebar_menu{
-    display: flex;
-}
-
-.sidebar_menu a{
-    display: flex;
-}
-
-.sidebar_menu_search{
-    width: 17.8vw;
-    background-color: #EA2340;
-    padding: 1.6vh 0;
-    clip-path: polygon(0 0, 85% 0, 100% 100%, 0% 100%);
-}
-
-.sidebar_menu_search{
-    width: 17.8vw;
-    background-color: #EA2340;
-    padding: 1.6vh 0;
-    clip-path: polygon(0 0, 85% 0, 100% 100%, 0% 100%);
-}
-
-.sidebar_menu_search img{
-    width: 1.39vw;
-    height: 3vh;
-    margin-left: 10vw;
-    padding-right: 0.6vw;
-}
-
-.sidebar_menu p{
-    margin-top: 0.32vh;
-}
-
-.sidebar_menu_filters{
-    -webkit-clip-path: polygon(0 20%, 65% 20%, 95% 90%, 30% 90%);
-    width:7vw;
-    background-color: #062639;
-    padding: 2.08vh 0;
+.main-search__sidebar{
+    width:60%;
+    max-width: 31.47vw;
+    display: block;
     position: absolute;
-    margin-left: 15.8vw;
+    top:4.2vh;
+    height: 74.88vh;
+    max-height: 74.88vh;
+    z-index: 999;
 }
-
-.sidebar_menu_filters img{
-    height: 2.5vh;
-    margin-left: 2.8vw;
-}
-
-.sidebar_menu_map{
-    -webkit-clip-path: polygon(0 20%, 65% 20%, 95% 90%, 30% 90%);
-    width:7vw;
-    background-color: #6C7E8B;
-    padding: 2.08vh 0;
-    position: absolute;
-    margin-left: 20.6vw;
-}
-
-.sidebar_menu_map img{
-    height: 2.5vh;
-    margin-left: 3vw;
-}
-
-/*Sidebar-content*/
-
-.sidebar_content h4{
-    font-size: 2.24vh;
-    color: #6C7E8B;
-    font-family: 'Raleway', sans-serif;
-    margin-bottom: 2.4vh;
-    position: relative;
-}
-
-.sidebar_content{
+.search-sidebar__content{
     background: #FFFFFF 0 0 no-repeat padding-box;
     box-shadow: 0 3px 6px #0000005F;
-    width: 22vw;
-    height: 75vh;
+    height: 112vh;
     border-top:7px solid #EA2340;
-    padding-left: 10vw;
-    padding-top: 4vh;
-    margin-top: -0.16vh;
+    padding: 35px 40px;
 }
 
-.sidebar_content p{
-    font-family: Raleway, sans-serif;
-    font-weight: 900;
-    font-size: 3.6vh;
-    color: #EA2340;
+.search-sidebar__inner{
+    max-width: 300px;
+    margin: auto;
 }
-
-.sidebar_content_form{
-    margin-top: 3.4vh;
-    margin-bottom: 5vh;
-}
-
-.sidebar_content_form input{
+.main-search__car-items{
     position: relative;
-    max-width: 19.27vw;
-    width: 100%;
-    margin-bottom: 1.12vh;
-    font-family: 'Raleway', serif;
-}
-
-.sidebar_content_form input[type='date']{
-    padding-left: 5.49vw;
-    max-width: 13.5vw;
-    height: 5vh;
-}
-
-/*Add Placeholder to Date input*/
-input[type='date']:after{
-    content: attr(placeholder);
-    position: absolute;
-    left: 0.36vw;
-    padding-top: 2.2vh;
-    font-size: 1.5vh;
-}
-
-.sidebar_content_form input:focus,
-.sidebar_content_form select:focus{
-    outline: none;
-}
-
-.sidebar_sort{
-    position: relative;
-    margin-bottom: 8vh;
-    width: 19vw;
-}
-.sidebar_sort > div{
-    display: inline-block;
-    padding: 1.6vh 0;
-    font-family: 'Raleway', sans-serif;
-    font-size: 2.1vh;
-    position: relative;
-    cursor: pointer;
-}
-.sidebar_sort .sort_option_high{
-    padding-left: 0.36vw;
-    padding-right: 2.34vw;
-    color:#06263998;
-    background-color: #fff;
-    border:1px solid #6C7E8B;
-    -webkit-clip-path: polygon(0 0, 85% 0, 100% 100%, 0% 100%);
-    clip-path: polygon(0 0, 85% 0, 100% 100%, 0% 100%);
-}
-
-.sidebar_sort .sort_option_low{
-    padding-left: 2.56vw;
-    padding-right:0.36vw;
-    color:#06263998;
-    right: 0;
-    position: absolute;
-    background-color: #fff;
-    border:1px solid #6C7E8B;
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 15% 100%);
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 15% 100%);
-}
-.sidebar_sort .active,
-.sidebar_sort > div:hover{
-    background-color: #06263998;
-    color:#fff;
-}
-
-.sidebar_content h4 span{
-    color: black;
-    position: absolute;
-    right: 3vw;
-}
-
-.search_slider {
-    -webkit-appearance: none;
-    width: 85%;
-    height: 4vh;
-    background: #d3d3d3;
-    outline: none;
-    opacity: 0.7;
-    -webkit-transition: .2s;
-    transition: opacity .2s;
-}
-
-.search_slider:hover {
-    opacity: 1;
-}
-
-.search_slider::-webkit-slider-thumb {
-    -webkit-appearance: none;
-    appearance: none;
-    width: 1.83vw;
-    height: 4vh;
-    background: #EA2340;
-    cursor: pointer;
-}
-
-.search_slider::-moz-range-thumb {
-    width: 1.83vw;
-    height: 4vh;
-    background: #EA2340;
-    cursor: pointer;
-}
-
-/*!*Sidebar ENDS*!///////////////////////////////////////////////////////////*/
-
-.search_content{
-    height: 87vh;
-    overflow-y: scroll;
-}
-
-.search_cars{
-    position: relative;
-    margin-top:6vh;
+    right:-220px;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
 }
-.search_cars .car-item{
-    max-width: 360px;
+.main-search__car-items .car-item{
+    max-width: 430px;
+    flex: 0 0 50%;
     padding: 0 5px;
 }
 .car-item__image img{
     width:100%;
 }
 .car-item__title,
-.car-item__price{
-    display: inline-block;
-}
+
 .car-item__title h4,
 .car-item__title h4 span{
     font-family: 'Bebas Neue', sans-serif;
-    line-height: 29px;
-    font-size: 3.52vh;
+    line-height: 38px;
+    font-size: 25px;
     text-transform: uppercase;
     color:#062639;
 }
 .car-item__title h4 span{
-    font-size: 2.88vh;
+    font-size: 21px;
+    line-height: 29px;
     color:#06263998;
-    margin-left: 0.36vw;
+    margin-left: 15px;
 }
 .car-item__price{
     position: relative;
-    width: 5vw;
-    padding: 0 12px;
-    top: -20px;
+    padding: 0 30px;
+    bottom: 60px;
     right: 10px;
     float: right;
     background: #FFFFFF 0 0 no-repeat padding-box;
@@ -1152,34 +963,510 @@ input[type='date']:after{
 .car-item__price span:first-child{
     display: inline-block;
     font-family: 'Bebas Neue', sans-serif;
-    padding-left: 7px;
-    font-size: 45px;
+    font-size: 59px;
     letter-spacing: 0;
     color:#062639;
 }
 .car-item__price span:first-child:after{
     content: "$";
     color: #062639;
-    font-size: 15px;
-    font-family: Raleway, sans-serif;
-    font-weight: 700;
+    font-size: 28px;
     display: block;
     position: absolute;
-    top: 6px;
-    left: 6px;
+    top: 10px;
+    left: 12px;
 }
 .car-item__price span.car-item__price-termin{
     font-family: 'Bebas Neue', sans-serif;
     transform: rotate(-90deg);
     display: block;
     position: absolute;
-    font-size: 12px;
+    font-size: 16px;
     color:#06263998;
     letter-spacing: 0;
     text-transform: uppercase;
     right: -5px;
-    top: 15px;
+    top: 20px;
+}
+
+/*Sidebar*/
+.search-sidebar__tab{
+    cursor: pointer;
+}
+.search-sidebar__tab.tab-first{
+    display: flex;
+    position: relative;
+    width: 65%;
+    /*max-width: 360px;*/
+    background-color: #EA2340;
+    padding: 10px 0;
+    clip-path: polygon(0 0, 80% 0, 100% 100%, 0% 100%);
+    z-index: 100;
+}
+
+.search-sidebar__tab.tab-second,
+.search-sidebar__tab.tab-third{
+    display: block;
+    width:75%;
+    max-width: 480px;
+    background-color: #062639;
+    clip-path: polygon(0 0, 85% 0, 100% 100%, 0% 100%);
+    padding: 10px 0;
+    position: absolute;
+    top: 10px;
+    z-index: 15;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.search-sidebar__tab.tab-second:hover,
+.search-sidebar__tab.tab-third:hover{
+    left: 40px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.search-sidebar__tab.tab-third{
+    background-color: #6C7E8B;
+    width: 90%;
+    max-width: 620px;
+    z-index: 10;
+}
+
+.search-sidebar__tab p{
+    color:#fff;
+    font-size: 2vh;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 0.32vh;
+    padding-left: 1.17vw    ;
+}
+.search-sidebar__content h4{
+    font-size: 16px;
+    color:#6C7E8B;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.search-sidebar__content h4 span{
+    position:absolute;
+    top: -5px;
+    right: 0;
+    color:#062639;
+    font-size: 24px;
+    font-family: 'RalewayBold', sans-serif;
+}
+.search-sidebar__content h3{
+    font-size: 4.0vh;
+    color: #EA2340;
+    margin-bottom: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+}
+.search-sidebar__form{
+    margin-bottom: 55px;
+}
+.search-sidebar__form input{
+    display: block;
+    position: relative;
+    max-width: 300px;
+    width: 100%;
+    margin: auto auto 7px;
+    font-size: 24px;
+    color:#062639;
+    padding: 10px 5px 6px 5px;
+}
+
+input[type='date']:after{
+    content: attr(placeholder);
+    font-size: 13px;
+    font-family: 'Raleway', sans-serif;
+    color:#06263998;
+    position: absolute;
+    left: 5px;
+}
+
+.search-sidebar__form input::-webkit-input-placeholder{
+    font-size: 13px;
+    font-family: 'Raleway', sans-serif;
+    color:#06263998;
+}
+.search-sidebar__form input::-moz-placeholder{
+    font-size: 13px;
+    font-family: 'Raleway', sans-serif;
+    color:#06263998;
+
+}
+.search-sidebar__form input:-moz-placeholder{
+    font-size: 13px;
+    font-family: 'Raleway', sans-serif;
+    color:#06263998;
+
+}
+.search-sidebar__form input:focus,
+.search-sidebar__form select:focus{
+    outline: none;
+}
+.search-sidebar__sort-options{
+    position: relative;
+    margin-bottom: 90px;
+}
+.search-sidebar__sort-options > div{
+    display: inline-block;
+    padding: 10px 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    letter-spacing: -0.6px;
+    position: relative;
+    cursor: pointer;
+}
+.search-sidebar__sort-options .sort-options__high{
+    padding-left: 5px;
+    padding-right: 32px;
+    color:#06263998;
+    background-color: #fff;
+    border:1px solid #6C7E8B;
+    /*width: 53%;*/
+    -webkit-clip-path: polygon(0 0, 85% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(0 0, 85% 0, 100% 100%, 0% 100%);
+}
+
+.search-sidebar__sort-options .sort-options__low{
+    padding-left: 35px;
+    padding-right:5px;
+    color:#06263998;
+    right: 0;
+    position: absolute;
+    background-color: #fff;
+    border:1px solid #6C7E8B;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 15% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 15% 100%);
+}
+.search-sidebar__sort-options .active,
+.search-sidebar__sort-options > div:hover{
+    background-color: #06263998;
+    color:#fff;
+}
+
+.search-sidebar__sort-options .sort-options__low:after,
+.search-sidebar__sort-options .sort-options__high:after{
+    content: "";
+    color:#06263998;
+    position: absolute;
+    display: block;
+    width: 1px;
+    height: 50px;
+    background-color: #06263998;
+    top: -5px;
+    left: 12px;
+    transform: rotate(-30deg);
+}
+.search-sidebar__sort-options .sort-options__high:after{
+    left: inherit;
+    right: 10px;
+    background-color: #06263998;
+    transform: rotate(-30deg);
+}
+
+/*===========================================================================================================*/
+
+.item-cell{
+    display: block;
+    align-self: center;
+    box-sizing: border-box;
+    width: 100%;
+    min-width: 0;
+    margin-top: 20px;
+}
+.range-bar{
+    position: absolute;
+    overflow: hidden;
+    background:#062639;
+    border-radius: 0;
+}
+
+.range-slider{
+    display: block;
+    position: relative;
+    align-self: center;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+.range-slider.range-slider-horizontal {
+    width: 100%;
+    height: 20px;
+}
+.range-slider-horizontal .range-bar{
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height:3px;
+    margin-top:0;
+}
+
+.range-slider-horizontal .range-bar-active{
+    left: 0;
+    top: 0;
+    height: 100%;
+    position: absolute;
+    background: darkgray;
+}
+.range-knob-wrap {
+    z-index: 20;
+    position: absolute;
+    height: 20px;
+    width: 20px;
+}
+.range-slider-horizontal .range-knob-wrap{
+    top: 50%;
+    margin-top: 0;
+    margin-left: 1px;
+}
+.range-knob {
+    box-sizing: border-box;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: -8px;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: #062639;
+
+}
+.range-knob:after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 44px;
+    height: 44px;
+    margin-left: -22px;
+    margin-top: -22px;
+}
+.aurora .range-knob-label {
+    margin-bottom: 6px;
+    transform: translateX(-50%) translateY(100%) scale(0);
+}
+.range-knob-label {
+    position: absolute;
+    left: 50%;
+    bottom: 100%;
+    text-align: center;
+    transition-duration: 120ms;
+    transition-property: transform;
+    box-sizing: border-box;
+    transform: translateY(100%) scale(0);
+    height: 20px;
+    min-width: 15px;
+    color: green;
+    font-size: 20px;
 }
 
 /*========================================Search page  -  filters section=====================================*/
 
+.main-search__car-items .car-item{
+    max-width: 430px;
+    flex: 0 0 50%;
+    padding: 0 5px;
+}
+.car-item__image img{
+    width:100%;
+}
+.car-item__title,
+.car-item__title h4,
+.car-item__title h4 span{
+    font-family: 'Bebas Neue', sans-serif;
+    line-height: 38px;
+    font-size: 25px;
+    text-transform: uppercase;
+    color:#062639;
+}
+.car-item__title h4 span{
+    font-size: 21px;
+    line-height: 29px;
+    color:#06263998;
+    margin-left: 15px;
+}
+.car-item__price{
+    position: relative;
+    padding: 0 30px;
+    bottom: 60px;
+    right: 10px;
+    float: right;
+    background: #FFFFFF 0 0 no-repeat padding-box;
+    box-shadow: 0 3px 6px #00000052;
+}
+.car-item__price span:first-child{
+    display: inline-block;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 59px;
+    letter-spacing: 0;
+    color:#062639;
+}
+.car-item__price span:first-child:after{
+    content: "$";
+    color: #062639;
+    font-size: 28px;
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: 12px;
+}
+
+/*Sidebar*/
+.filters-sidebar__content{
+    border-top:7px solid #EA2340;
+    padding: 35px 40px;
+    overflow-y: auto;
+}
+.filters-sidebar__tab{
+    cursor: pointer;
+    min-height: 45px;
+}
+.filters-sidebar__tab p {
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    font-family: Raleway, sans-serif;
+    text-align: right;
+    margin-right: 60px;
+}
+.filters-sidebar__tab.tab-first{
+    display: block;
+    position: relative;
+    width: 60%;
+    max-width: 340px;
+    background-color: #062639;
+    padding: 15px 0;
+    clip-path: polygon(0 0, 80% 0, 100% 100%, 0% 100%);
+    z-index: 100;
+}
+
+.filters-sidebar__tab.tab-second,
+.filters-sidebar__tab.tab-third{
+    display: block;
+    width:75%;
+    max-width: 480px;
+    background-color: #6C7E8B;
+}
+.filters-sidebar__tab.tab-second:hover,
+.filters-sidebar__tab.tab-third:hover{
+    left: 40px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 1s ease;
+}
+.filters-sidebar__tab.tab-third{
+    background-color: #EA2340;
+    width: 90%;
+    max-width: 620px;
+    z-index: 10;
+}
+.search-sidebar__content.filters{
+    border-color: #062639;
+}
+.search-sidebar__form select{
+    display: block;
+    position: relative;
+    max-width: 300px;
+    width: 100%;
+    margin: auto auto 20px;
+    font-size: 13px;
+    color:  #5F727E;
+    font-family: 'Raleway', sans-serif;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    border:1px solid #5F727E;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: 10px;
+    background-size: 25px;
+}
+
+/*========================================Search page  -  map section=====================================*/
+
+/*Sidebar*/
+.search-sidebar__content_map{
+    border-top: 7px solid #6C7E8B;
+}
+
+.map-sidebar__content{
+    border-top:7px solid #6C7E8B;
+    padding: 35px 40px;
+}
+.map-sidebar__tab{
+    cursor: pointer;
+    min-height: 45px;
+}
+.map-sidebar__tab.tab-first{
+    display: block;
+    position: relative;
+    width: 60%;
+    max-width: 340px;
+    background-color: #6C7E8B;
+    padding: 15px 0;
+    clip-path: polygon(0 0, 80% 0, 100% 100%, 0% 100%);
+    z-index: 100;
+}
+
+.map-sidebar__tab.tab-second,
+.map-sidebar__tab.tab-third{
+    display: block;
+    width:75%;
+    max-width: 480px;
+    background-color: #062639;
+    clip-path: polygon(0 0, 85% 0, 100% 100%, 0% 100%);
+    padding: 15px 0;
+    position: absolute;
+    min-height: 35px;
+    top: 10px;
+    z-index: 15;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.map-sidebar__tab.tab-second:hover,
+.map-sidebar__tab.tab-third:hover{
+    left: 40px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.map-sidebar__tab.tab-third{
+    background-color: #EA2340;
+    width: 90%;
+    max-width: 620px;
+    z-index: 10;
+}
+
+/*.search-sidebar__tab:after{*/
+/*    content: "";*/
+/*    width: 0;*/
+/*    height: 0;*/
+/*    border-top: 45px solid #062639;*/
+/*    border-left: 45px solid transparent;*/
+/*    position:absolute;*/
+/*    display: block;*/
+/*    right: 0;*/
+/*    top: 0;*/
+/*}*/
+.map-sidebar__tab p{
+    color:#fff;
+    font-size: 13px;
+    font-family: 'Raleway', sans-serif;
+    text-align: right;
+    margin-right: 60px;
+}

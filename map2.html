@@ -2,10 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Search Page</title>
+    <title>Car Work</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,700,900&display=swap" rel="stylesheet">
+    <script src="Map.js"></script>
 </head>
 <body>
 
@@ -38,56 +39,36 @@
 </header>
 
 <!--///////////////////////////// page start ////////////////////////////////-->
-<div class="search_main">
-    <div class="search_sidebar">
-        <div class="sidebar_menu">
-            <div class="sidebar_menu_search">
-                <a href="search.html">
-                    <img src="icons/magnifying-glass.png" alt="">
-                    <p>Search</p>
-                </a>
-            </div>
-            <div class="sidebar_menu_filters">
-                <a href="filters.html">
-                    <img src="icons/levels.png" alt="">
-                </a>
-            </div>
+<div class="main-search__content">
 
-            <div class="sidebar_menu_map">
-                <a href="map.html">
-                    <img src="icons/placeholder.png" alt="">
-                </a>
+    <div class="main-search__sidebar">
+        <a href="map.html">
+            <div class="map-sidebar__tab tab-first">
+                <p>Map</p>
             </div>
-        </div>
-        <div class="sidebar_content">
-            <p>Find your car now!</p>
-            <div class="sidebar_content_form">
-                <input type="text" placeholder="Location">
-                <input type="date" name="from" placeholder="From">
-                <input type="date" name="till" placeholder="Till">
-            </div>
-
-            <h4>Sort by:</h4>
-            <div class="sidebar_sort">
-                <div class="sort_option_high active">
-                    <span>Price (low to high)</span>
-                </div>
-                <div class="sort_option_low">
-                    <span>Price (high to low)</span>
-                </div>
-            </div>
-            <h4>Price range ($/per day): <span>100 - 300</span></h4>
-            <input type="range" min="1" max="100" value="40" class="search_slider" id="myRange">
+        </a>
+        <a href="filters.html">
+            <div class="map-sidebar__tab tab-second"></div>
+        </a>
+        <a href="search.html">
+            <div class="map-sidebar__tab tab-third"></div>
+        </a>
+        <div class="search-sidebar__content_map">
+            <div class="search-sidebar__inner map">
+                <!--The div element for the map -->
+                <div id="map"></div>
+            </div><!--./search-sidebar__inner -->
         </div>
     </div>
-    <div class="search_content">
-        <div class="search_cars">
+
+    <div class="container">
+        <div class="main-search__car-items">
             <div class="car-item">
                 <div class="car-item__image">
                     <img src="img/azlk2.png" alt="">
                 </div>
                 <div class="car-item__title">
-                    <h4>Zaporozhets G-CLASS <span>2019</span></h4>
+                    <h4>MERCEDES-BENZ G-CLASS <span>2019</span></h4>
                 </div>
                 <div class="car-item__price">
                     <span>180</span>
@@ -97,10 +78,10 @@
 
             <div class="car-item">
                 <div class="car-item__image">
-                    <img src="img/zaz_full.png" alt="">
+                    <img src="img/azlk2.png" alt="">
                 </div>
                 <div class="car-item__title">
-                    <h4>ZAZ model x <span>2018</span></h4>
+                    <h4>TESLA model x <span>2018</span></h4>
                 </div>
                 <div class="car-item__price">
                     <span>180</span>
@@ -110,20 +91,20 @@
 
             <div class="car-item">
                 <div class="car-item__image">
-                    <img src="img/lambo.png" alt="">
+                    <img src="img/azlk2.png" alt="">
                 </div>
                 <div class="car-item__title">
-                    <h4>Lamborghini Urus <span>2019</span></h4>
+                    <h4>MERCEDES-BENZ G-CLASS <span>2019</span></h4>
                 </div>
                 <div class="car-item__price">
-                    <span>500</span>
+                    <span>180</span>
                     <span class="car-item__price-termin">per day</span>
                 </div>
             </div>
 
             <div class="car-item">
                 <div class="car-item__image">
-                    <img src="img/gaz_full.png" alt="">
+                    <img src="img/azlk2.png" alt="">
                 </div>
                 <div class="car-item__title">
                     <h4>TESLA model x <span>2018</span></h4>
