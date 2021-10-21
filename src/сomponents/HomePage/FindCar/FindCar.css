@@ -1,0 +1,65 @@
+/*======================================== find your car section ============================*/
+
+.image_find {
+    background-image: url("../../../assets/img/742079-PSISLA-798.png");
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 86vh;
+}
+
+.main_find {
+    position: absolute;
+    margin-top: 17vh;
+    max-width: 100%;
+    width: 31.7vw;
+    height: 43vh;
+    background-color: white;
+    box-shadow: 0 3px 6px #0000005F;
+}
+
+form {
+    margin-left: 10vw;
+}
+
+.find_title {
+    font-family: Raleway, sans-serif;
+    font-weight: 900;
+    font-size: 3.6vh;
+    color: #EA2340;
+    padding-top: 4vh;
+    margin-bottom: 1px;
+}
+
+.find_under_title {
+    font-family: Raleway, sans-serif;
+    font-size: 0.8vw;
+    color: #06263998;
+    margin-bottom: 2.84vh;
+}
+
+input[type=text], select {
+    width: 17.5vw;
+    height: 5.6vh;
+    padding-left: 0.43vw;
+    padding-top: 2.2vh;
+    margin-bottom: 0.8vh;
+    border: 1px solid #5F727E;
+    box-sizing: border-box;
+    font-family: Raleway, sans-serif;
+    font-size: 1.5vh;
+    color: #06263998;
+}
+
+.main_find button {
+    border: 0;
+    margin-left: 0.43vw;
+    margin-top: 2.5vh;
+    padding-bottom: 6vh;
+    width: 9.7vw;
+    height: 10vh;
+    background-color: #EA2340;
+    font: bold 2vh Raleway;
+    color: white;
+    cursor: pointer;
+}

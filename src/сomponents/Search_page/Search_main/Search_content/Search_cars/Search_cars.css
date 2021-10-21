@@ -1,0 +1,7 @@
+.search_cars{
+    position: relative;
+    margin-top:6vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}

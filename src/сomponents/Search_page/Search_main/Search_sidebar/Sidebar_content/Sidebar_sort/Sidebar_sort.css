@@ -1,0 +1,40 @@
+
+.sidebar_sort{
+    position: relative;
+    margin-bottom: 8vh;
+    width: 19vw;
+}
+.sidebar_sort > div{
+    display: inline-block;
+    padding: 1.6vh 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.1vh;
+    position: relative;
+    cursor: pointer;
+}
+.sidebar_sort .sort_option_high{
+    padding-left: 0.36vw;
+    padding-right: 2.34vw;
+    color:#06263998;
+    background-color: #fff;
+    border:1px solid #6C7E8B;
+    -webkit-clip-path: polygon(0 0, 85% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(0 0, 85% 0, 100% 100%, 0% 100%);
+}
+
+.sidebar_sort .sort_option_low{
+    padding-left: 2.56vw;
+    padding-right:0.36vw;
+    color:#06263998;
+    right: 0;
+    position: absolute;
+    background-color: #fff;
+    border:1px solid #6C7E8B;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 15% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 15% 100%);
+}
+.sidebar_sort .active,
+.sidebar_sort > div:hover{
+    background-color: #06263998;
+    color:#fff;
+}

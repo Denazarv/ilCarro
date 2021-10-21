@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a7659398-f837-43b8-b67a-002a9ae642fe" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Map.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/Map.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/filters.html" beforeDir="false" afterPath="$PROJECT_DIR$/Layouts/filters.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/filters2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/BebasNeueBold.eot" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/fonts/BebasNeueBold.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/BebasNeueBold.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/fonts/BebasNeueBold.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/BebasNeueBold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/fonts/BebasNeueBold.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/BebasNeueBold.woff" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/fonts/BebasNeueBold.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/BebasNeueBold.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/fonts/BebasNeueBold.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/fonts/demo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/fonts/stylesheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/facebook.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/icons/facebook.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/hz.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/icons/hz.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/insta.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/icons/insta.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/levels.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/icons/levels.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/magnifying-glass.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/icons/magnifying-glass.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/placeholder.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/icons/placeholder.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/telegram.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/icons/telegram.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/vk.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/icons/vk.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/742079-PSISLA-798.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/img/742079-PSISLA-798.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/742079-PSISLA-798@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/img/742079-PSISLA-798@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/azlk.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/img/azlk.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/azlk2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/img/azlk2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/big_azlk.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/img/big_azlk.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/gaz.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/img/gaz.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/gaz_full.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/img/gaz_full.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/lambo (2).png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/img/lambo (2).png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/lambo.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/img/lambo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/img/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/logo2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/img/logo2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/map.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/img/map.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/user-icon.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/img/user-icon.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/zaz.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/img/zaz.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/zaz_full.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/img/zaz_full.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/Layouts/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/Layouts/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/map.html" beforeDir="false" afterPath="$PROJECT_DIR$/Layouts/map.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/reset.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/Layouts/search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/Layouts/signup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/still_available.html" beforeDir="false" afterPath="$PROJECT_DIR$/Layouts/still_available.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/terms_of_use.html" beforeDir="false" afterPath="$PROJECT_DIR$/Layouts/terms_of_use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload.html" beforeDir="false" afterPath="$PROJECT_DIR$/Layouts/upload.html" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
+  <component name="ProjectId" id="1UTQ66cuOnXe3HrfWqvUzBFDKxl" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Documents\Sites\ilCarro\JS" />
+      <recent name="C:\Users\User\Documents\Sites\ilCarro\CSS" />
+      <recent name="C:\Users\User\Documents\Sites\ilCarro\Layouts" />
+      <recent name="C:\Users\User\Documents\Sites\ilCarro\Assets" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Documents\Sites\ilCarro" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a7659398-f837-43b8-b67a-002a9ae642fe" name="Default Changelist" comment="" />
+      <created>1575377927014</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575377927014</updated>
+      <workItem from="1575377930120" duration="30787000" />
+      <workItem from="1575457736447" duration="17517000" />
+      <workItem from="1575491458547" duration="320000" />
+      <workItem from="1575491811078" duration="30485000" />
+      <workItem from="1575628373773" duration="2545000" />
+      <workItem from="1575826776582" duration="6412000" />
+      <workItem from="1575893608812" duration="37221000" />
+      <workItem from="1576148183471" duration="10948000" />
+      <workItem from="1576239617479" duration="1256000" />
+      <workItem from="1576243703870" duration="1261000" />
+      <workItem from="1576428861930" duration="3477000" />
+      <workItem from="1576751520794" duration="30000" />
+      <workItem from="1576775569097" duration="2293000" />
+      <workItem from="1577023130035" duration="52511000" />
+      <workItem from="1577357978308" duration="924000" />
+      <workItem from="1577624287623" duration="191000" />
+      <workItem from="1577729983138" duration="864000" />
+    </task>
+    <task id="LOCAL-00001" summary="beginning">
+      <created>1575382166394</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1575382166394</updated>
+    </task>
+    <task id="LOCAL-00002" summary="header">
+      <created>1575396869753</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1575396869753</updated>
+    </task>
+    <task id="LOCAL-00003" summary="header_remake">
+      <created>1575407608035</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1575407608035</updated>
+    </task>
+    <task id="LOCAL-00004" summary="rename find car page to main">
+      <created>1575409056283</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1575409056283</updated>
+    </task>
+    <task id="LOCAL-00005" summary="main page almost full">
+      <created>1575456781746</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1575456781746</updated>
+    </task>
+    <task id="LOCAL-00006" summary="main page full +adaptive">
+      <created>1575465918787</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1575465918788</updated>
+    </task>
+    <task id="LOCAL-00007" summary="main page feedback`s">
+      <created>1575494358037</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1575494358037</updated>
+    </task>
+    <task id="LOCAL-00008" summary="main page full with footer">
+      <created>1575560905394</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1575560905394</updated>
+    </task>
+    <task id="LOCAL-00009" summary="registration page">
+      <created>1575580048527</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1575580048527</updated>
+    </task>
+    <task id="LOCAL-00010" summary="log in page">
+      <created>1575581044537</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1575581044537</updated>
+    </task>
+    <task id="LOCAL-00011" summary="let the cat work page">
+      <created>1575992493131</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1575992493131</updated>
+    </task>
+    <task id="LOCAL-00012" summary="still available page start">
+      <created>1576013722390</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1576013722390</updated>
+    </task>
+    <task id="LOCAL-00013" summary="still available page full + google maps.js">
+      <created>1576153031758</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1576153031758</updated>
+    </task>
+    <task id="LOCAL-00014" summary="something">
+      <created>1576177268775</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1576177268775</updated>
+    </task>
+    <task id="LOCAL-00015" summary="do hera chego">
+      <created>1577301138293</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1577301138293</updated>
+    </task>
+    <task id="LOCAL-00016" summary="finally full layouts!">
+      <created>1577306744159</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1577306744159</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="beginning" />
+    <MESSAGE value="header" />
+    <MESSAGE value="header_remake" />
+    <MESSAGE value="rename find car page to main" />
+    <MESSAGE value="main page almost full" />
+    <MESSAGE value="main page full +adaptive" />
+    <MESSAGE value="main page feedback`s" />
+    <MESSAGE value="main page full with footer" />
+    <MESSAGE value="registration page" />
+    <MESSAGE value="log in page" />
+    <MESSAGE value="let the cat work page" />
+    <MESSAGE value="still available page start" />
+    <MESSAGE value="still available page full + google maps.js" />
+    <MESSAGE value="something" />
+    <MESSAGE value="do hera chego" />
+    <MESSAGE value="finally full layouts!" />
+    <option name="LAST_COMMIT_MESSAGE" value="finally full layouts!" />
+  </component>
+</project>

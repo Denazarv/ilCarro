@@ -1,0 +1,12 @@
+.nav_menu_footer{
+    padding-top: 4.54vh;
+    display: flex;
+}
+
+.nav_menu_footer a {
+    font: Bold 1.81vh Raleway;
+    text-align: center;
+    color: white;
+    padding-left: 1vw;
+    padding-right: 1.8vw;
+}

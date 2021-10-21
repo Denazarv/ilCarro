@@ -1,0 +1,70 @@
+
+.upload_form {
+    width: 100%;
+    list-style-type: none;
+}
+
+.upload_form .title_1 {
+    width: 33.31vw;
+    font: 900 3.63vh Raleway;
+    color: #EA2340;
+    padding-top: 11.81vh;
+}
+
+.upload_form .title_2 {
+    padding-top: 3.2vh;
+    width: 34vw;
+    font: 1.81vh Raleway;
+    color: #062639;
+    margin-bottom: 6.58vh;
+}
+
+.car_details p {
+    color: #062639;
+    font: 400 3.8vh Raleway;
+}
+
+.upload_form p {
+    margin-bottom: 3.4vh;
+}
+
+.car_details input {
+    width: 17vw;
+    margin-bottom: 3.2vh;
+    border: 1px solid #5F727E;
+    padding: 25px 20px 10px 10px;
+}
+
+.upload_form textarea {
+    width: 37.94vw;
+    height: 35.21vh;
+    resize: none;
+    padding: 25px 20px 10px 10px;
+    margin-bottom: 6.58vh;
+}
+
+.upload_form button {
+    border: 0;
+    /*margin-left: 3.86vw;*/
+    margin-top: 19.65vh;
+    margin-bottom: 19.62vh;
+    width: 9.76vw;
+    height: 5.45vh;
+    background-color: #EA2340;
+    font: bold 2vh Raleway;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 3px 6px #00000052;
+}
+
+.car-det{
+     margin-top: 6.58vh;
+ }
+
+.car-det-about{
+    margin-top: 13.85vh;
+}
+
+.car-det-perday{
+    margin-top: 6.58vh;
+}

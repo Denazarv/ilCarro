@@ -1,0 +1,63 @@
+
+/*======================================== registration page ============================*/
+
+.reg_form {
+    position: absolute;
+    right: 0;
+    max-width: 100%;
+    width: 31.7vw;
+    height: 100vh;
+    background-color: white;
+    box-shadow: 0 3px 6px #0000005F;
+}
+
+.reg_form button {
+    border: 0;
+    margin-left: 3.86vw;
+    margin-top: 5.49vh;
+    width: 9.76vw;
+    height: 5.45vh;
+    background-color: #EA2340;
+    font: bold 2vh Raleway;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 3px 6px #00000052;
+}
+
+.reg_title {
+    font-family: Raleway, sans-serif;
+    font-weight: 900;
+    font-size: 3.6vh;
+    color: #EA2340;
+    padding-top: 12.38vh;
+    margin-bottom: 1px;
+}
+
+.back_img {
+    background-image: url("../../assets/img/742079-PSISLA-798.png");
+    background-position: right bottom;
+    background-size: cover;
+    width: 67vw;
+    height: 86vh;
+}
+
+.registration {
+    margin-left: 3.86vw;
+}
+
+
+.find_under_title {
+    font-family: Raleway, sans-serif;
+    font-size: 0.8vw;
+    color: #06263998;
+    margin-bottom: 3.84vh;
+}
+
+/*======================================== login page ============================*/
+.log_forgot {
+    color: #06263998;
+    font-family: Raleway, sans-serif;
+    font-size: 1.7vh;
+    margin-top: 20.10vh;
+    margin-left: 3.86vw;
+}

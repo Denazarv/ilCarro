@@ -1,0 +1,5 @@
+.search_content{
+    height: 87vh;
+    width: 70vw;
+    overflow-y: scroll;
+}

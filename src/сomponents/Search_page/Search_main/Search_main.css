@@ -1,0 +1,12 @@
+.search_main{
+    padding-top: 5vh;
+    position: relative;
+    width:100%;
+    overflow: hidden;
+    display: flex;
+}
+
+p{
+color: #FFFFFF;
+font: 1.8vh Raleway;
+}

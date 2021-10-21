@@ -1,0 +1,1194 @@
+html, body {
+    height: 100%;
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('../assets/fonts/BebasNeueBold.eot');
+    src: url('../assets/fonts/BebasNeueBold.eot?#iefix') format('embedded-opentype'),
+    url('../assets/fonts/BebasNeueBold.woff2') format('woff2'),
+    url('../assets/fonts/BebasNeueBold.woff') format('woff'),
+    url('../assets/fonts/BebasNeueBold.ttf') format('truetype'),
+    url('../assets/fonts/BebasNeueBold.svg#BebasNeueBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+.section {
+    height: 100vh;
+    width: 100%;
+}
+
+.container {
+    max-width: 82vw;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/*!*======================================== header ============================*!*/
+/*.header {*/
+/*    position: relative;*/
+/*    background-color: #062639;*/
+/*    box-shadow: 0 3px 6px black;*/
+/*    z-index: 50;*/
+/*}*/
+
+/*.header .logo{*/
+/*    margin-left: 0;*/
+/*}*/
+
+/*.header_inner {*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*    align-items: center;*/
+/*    min-height: 9.3vh;*/
+/*}*/
+
+/*.btn_menu {*/
+/*    width: 40px;*/
+/*    display: none;*/
+/*}*/
+
+/*.btn_menu div {*/
+/*    height: 5px;*/
+/*    background-color: #fff;*/
+/*    margin-bottom: 5px;*/
+/*}*/
+
+/*.menu_list {*/
+/*    display: flex;*/
+/*}*/
+
+/*.menu_list a {*/
+/*    font: Bold 1vmax Raleway;*/
+/*    color: white;*/
+/*    text-decoration: none;*/
+/*    padding: 2.3vh 1.7vw 5vh;*/
+/*}*/
+
+/*.menu_list a:hover {*/
+/*    background-color: #EA2340;*/
+/*}*/
+
+/*.menu_list .active {*/
+/*    background-color: #EA2340;*/
+/*}*/
+
+/*!*======================================== main page============================*!*/
+
+/*!*======================================== find your car section ============================*!*/
+
+/*.image_find {*/
+/*    background-image: url("../assets/img/742079-PSISLA-798.png");*/
+/*    background-size: cover;*/
+/*    position: relative;*/
+/*    width: 100%;*/
+/*    height: 86vh;*/
+/*}*/
+
+/*.main_find {*/
+/*    position: absolute;*/
+/*    margin-top: 17vh;*/
+/*    max-width: 100%;*/
+/*    width: 31.7vw;*/
+/*    height: 43vh;*/
+/*    background-color: white;*/
+/*    box-shadow: 0 3px 6px #0000005F;*/
+/*}*/
+
+/*form {*/
+/*    margin-left: 10vw;*/
+/*}*/
+
+/*.find_title {*/
+/*    font-family: Raleway, sans-serif;*/
+/*    font-weight: 900;*/
+/*    font-size: 3.6vh;*/
+/*    color: #EA2340;*/
+/*    padding-top: 4vh;*/
+/*    margin-bottom: 1px;*/
+/*}*/
+
+/*.find_under_title {*/
+/*    font-family: Raleway, sans-serif;*/
+/*    font-size: 0.8vw;*/
+/*    color: #06263998;*/
+/*    margin-bottom: 2.84vh;*/
+/*}*/
+
+/*input[type=text], select {*/
+/*    width: 17.5vw;*/
+/*    height: 5.6vh;*/
+/*    padding-left: 0.43vw;*/
+/*    padding-top: 2.2vh;*/
+/*    margin-bottom: 0.8vh;*/
+/*    border: 1px solid #5F727E;*/
+/*    box-sizing: border-box;*/
+/*    font-family: Raleway, sans-serif;*/
+/*    font-size: 1.5vh;*/
+/*    color: #06263998;*/
+/*}*/
+
+/*.main_find button {*/
+/*    border: 0;*/
+/*    margin-left: 0.43vw;*/
+/*    margin-top: 2.5vh;*/
+/*    padding-bottom: 6vh;*/
+/*    width: 9.7vw;*/
+/*    height: 10vh;*/
+/*    background-color: #EA2340;*/
+/*    font: bold 2vh Raleway;*/
+/*    color: white;*/
+/*    cursor: pointer;*/
+/*}*/
+
+/*!*======================================== intermediate footer ============================*!*/
+
+/*.base {*/
+/*    overflow: hidden;*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    width: 100%;*/
+/*}*/
+
+/*.intermediate_footer {*/
+/*    position: relative;*/
+/*    background-color: #062639;*/
+/*    width: 100%;*/
+/*    height: 30vh;*/
+/*    padding-top: 2.6vh;*/
+/*}*/
+
+/*.cornerLine {*/
+/*    background: #EA2340;*/
+/*    width: 88.4vw;*/
+/*    height: 3.8vh;*/
+/*    margin-bottom: 6vh;*/
+/*    clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 96% 0);*/
+
+/*}*/
+
+/*.int_footer_texts {*/
+/*    max-width: 100%;*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*}*/
+
+
+/*.left_text {*/
+/*    padding-left: 9.5vw;*/
+/*    font: Bold 6vh Bebas Neue;*/
+/*    letter-spacing: 0;*/
+/*    color: white;*/
+/*    text-transform: capitalize;*/
+/*}*/
+
+/*.middle_text {*/
+/*    width: 35%;*/
+/*    padding-left: 3vw;*/
+/*    font: 1.8vh Raleway;*/
+/*    letter-spacing: 0;*/
+/*    color: white;*/
+/*}*/
+
+/*.right_text {*/
+/*    padding-left: 8vw;*/
+/*    font: 3.5vh Raleway;*/
+/*    font-weight: 900;*/
+/*    letter-spacing: 0;*/
+/*    color: #EA2340;*/
+/*}*/
+
+/*.join {*/
+/*    border: 0;*/
+/*    width: 7.5vw;*/
+/*    height: 5.4vh;*/
+/*    position: relative;*/
+
+/*    font: 700 2vh Raleway;*/
+/*    color: white;*/
+/*    background: #EA2340 0 0 no-repeat padding-box;*/
+/*    box-shadow: 0 3px 6px #00000052;*/
+/*    cursor: pointer;*/
+/*    margin-top: 1.6vh;*/
+/*}*/
+
+/*!*======================================== 3 most popular choices ============================*!*/
+
+/*!*Styles for blocks with TOP 3 cars TEXT*!*/
+
+/*.most_popular {*/
+/*    display: flex;*/
+/*    background-color: white;*/
+/*    width: 100%;*/
+/*    height: 38vh;*/
+/*    align-items: center;*/
+/*}*/
+
+/*.most_number {*/
+/*    font: Bold 16.9vh Bebas Neue;*/
+/*    color: #EA2340;*/
+/*    padding-left: 8.5vw;*/
+/*}*/
+
+/*.most_text {*/
+/*    padding-left: 0.88vw;*/
+/*    font: Bold 6.1vh Bebas Neue;*/
+/*    letter-spacing: 0;*/
+/*    color: #062639;*/
+/*    text-transform: capitalize;*/
+/*}*/
+
+/*.most_descr {*/
+/*    width: 33.37vw;*/
+/*    font: 1.82vh Raleway;*/
+/*    letter-spacing: 0;*/
+/*    color: #062639;*/
+/*    padding-left: 25.4vw;*/
+/*}*/
+
+
+/*!*Styles for blocks with TOP 3 cars IMAGES*!*/
+
+/*.car-box_blue {*/
+/*    position: relative;*/
+/*    background-color: #062639;*/
+/*    width: 100%;*/
+/*    height: 62.8vh;*/
+/*    z-index: -1;*/
+/*}*/
+
+/*.car-box_red {*/
+/*    background-color: #EA2340;*/
+/*    width: 100%;*/
+/*    height: 54.5vh;*/
+/*    padding-top: 2.27vh;*/
+/*    clip-path: polygon(94% 0, 100% 25%, 100% 100%, 6% 100%, 0% 76%, 0 0);*/
+/*}*/
+
+/*.car-box_red img {*/
+/*    position: absolute;*/
+/*    width: 54.63vw;*/
+/*    height: 46.91vh;*/
+/*    margin-left: -11.62vw;*/
+/*}*/
+
+/*.car-box_img1 {*/
+/*}*/
+
+/*.car-box_img2 {*/
+/*    left: 33%;*/
+/*}*/
+
+/*.car-box_img3 {*/
+/*    left: 66%;*/
+/*}*/
+
+/*!*Styles for blocks with TOP 3 PRICES*!*/
+
+/*.carsPrices {*/
+/*    display: flex;*/
+/*    !*margin-top: -70px;*!*/
+/*    width: 100%;*/
+/*}*/
+
+/*.car_names {*/
+/*    display: flex;*/
+/*    width: 100%;*/
+/*    justify-content: space-around;*/
+/*    margin-top: -12vh;*/
+/*}*/
+
+/*.top1car, .top2car, .top3car {*/
+/*    color: white;*/
+/*    text-transform: uppercase;*/
+/*    font: Bold 3.63vh Bebas Neue;*/
+/*}*/
+
+/*.top1car {*/
+/*    margin-left: -2vw;*/
+/*}*/
+
+/*.topPrice1, .topPrice2, .topPrice3 {*/
+/*    width: 10vw;*/
+/*    height: 10.33vh;*/
+/*    background: white;*/
+/*    margin: auto;*/
+/*    box-shadow: 0 3px 6px #00000052;*/
+/*    display: flex;*/
+/*}*/
+
+/*.currency {*/
+/*    font: Bold 3.5vh Raleway;*/
+/*    text-align: center;*/
+/*    color: #EA2340;*/
+/*    width: 25%;*/
+/*    margin-top: 1vh;*/
+/*}*/
+
+/*.amount {*/
+/*    font: Bold 10vmin Bebas Neue;*/
+/*    letter-spacing: 0;*/
+/*    text-transform: capitalize;*/
+/*    color: #EA2340;*/
+/*    text-align: center;*/
+/*    width: 40%;*/
+
+/*}*/
+
+/*.perDay {*/
+/*    font: Bold 2.7vh Bebas Neue;*/
+/*    letter-spacing: 0;*/
+/*    text-transform: capitalize;*/
+/*    color: #06263998;*/
+/*    writing-mode: vertical-lr;*/
+/*    transform: rotate(180deg);*/
+/*    text-align: center;*/
+/*    padding: 0.5vw;*/
+/*    width: 30%;*/
+/*}*/
+
+/*!*======================================== main page feedback`s ============================*!*/
+
+/*.feed_main {*/
+/*    width: 100%;*/
+/*    height: 93vh;*/
+/*    overflow: hidden;*/
+/*    margin-bottom: 11.36vh;*/
+/*}*/
+
+/*.feed_main_topic {*/
+/*    width: 30%;*/
+/*    font: Bold 6.1vh Bebas Neue;*/
+/*    letter-spacing: 0;*/
+/*    color: white;*/
+/*    text-transform: uppercase;*/
+/*    padding: 8vh 0;*/
+/*    margin-left: 6.58vw;*/
+/*}*/
+
+/*.feeds_list {*/
+/*    display: flex;*/
+/*    flex-wrap: wrap;*/
+/*    justify-content: center;*/
+/*}*/
+
+/*.feeds_list .feed_user {*/
+/*    padding: 25px 45px 25px 125px;*/
+/*    flex-basis: calc(50% - 19.76vw);*/
+/*    height: 11.36vh;*/
+/*}*/
+
+/*.feed_user img {*/
+/*    border-radius: 4.67vw;*/
+/*    float: left;*/
+/*    margin-right: 0.9vw;*/
+/*}*/
+
+/*.feed_user .feed_text {*/
+/*    display: block;*/
+/*    width: 30vw;*/
+/*    height: 9.11vh;*/
+/*    font: 400 1.8vh Raleway;*/
+
+/*}*/
+
+/*.feed_user .name_user {*/
+/*    font: Bold 1.8vh Raleway;*/
+/*    color: #EA2340;*/
+/*    !*padding-top: 2.27vh;*!*/
+/*    padding-right: 2.59vw;*/
+/*    float: left;*/
+/*}*/
+
+/*.feed_user .feed_date {*/
+/*    !*margin-top: 2.27vh;*!*/
+/*    color: #06263998;*/
+/*    font: 400 1.47vh Raleway;*/
+/*}*/
+
+/*!*======================================== footer ============================*!*/
+
+
+/*.footer {*/
+/*    background: #062639;*/
+/*    width: 100%;*/
+/*    height: 50.66vh;*/
+/*    overflow: hidden;*/
+/*}*/
+
+/*.footer_top {*/
+/*    padding-top: 5.1vh;*/
+/*    padding-left: 8.3vw;*/
+/*    display: flex;*/
+/*    max-width: 100%;*/
+/*}*/
+
+/*.footer_desc {*/
+/*    float: right;*/
+/*    position: relative;*/
+/*    width: 31.59vw;*/
+/*    font: 1.8vh Raleway;*/
+/*    color: white;*/
+/*}*/
+
+/*.logo {*/
+/*    margin-left: 5.2vw;*/
+/*    margin-top: 0.8vh;*/
+/*    padding-right: 18.7vw;*/
+/*}*/
+
+/*.social {*/
+/*    margin-top: auto;*/
+/*    margin-bottom: auto;*/
+/*}*/
+
+/*.social img {*/
+/*    width: 1.46vmax;*/
+/*    margin: 0 0.9vw;*/
+/*}*/
+
+/*.footer_bottom {*/
+/*    display: flex;*/
+/*    width: 100%;*/
+/*    align-items: flex-start;*/
+/*}*/
+
+/*.red_block {*/
+/*    background: #EA2340;*/
+/*    width: 65%;*/
+/*    height: 39.76vh;*/
+/*    margin-top: 4.5vh;*/
+/*    clip-path: polygon(0 0, 50% 0, 100% 100%, 0% 100%);*/
+/*}*/
+
+/*.red_block_text {*/
+/*    padding-left: 10%;*/
+/*    padding-top: 10%;*/
+/*    font: Bold 6.13vh Bebas Neue;*/
+/*    color: white;*/
+/*    text-transform: capitalize;*/
+/*}*/
+
+/*.rightInfo {*/
+/*    width: 40.17vw;*/
+/*}*/
+
+/*.nav_menu_footer {*/
+/*    padding-top: 4.54vh;*/
+/*    display: flex;*/
+/*}*/
+
+
+/*.nav_menu_footer p {*/
+/*    font: Bold 1.81vh Raleway;*/
+/*    text-align: center;*/
+/*    color: white;*/
+/*    padding-left: 1vw;*/
+/*    padding-right: 1.8vw;*/
+/*}*/
+
+/*.line {*/
+/*    padding-top: 1.1vh;*/
+/*    padding-bottom: 4.5vh;*/
+/*    padding-right: 8.35vw;*/
+/*    width: 35.8vw;*/
+/*    float: right;*/
+/*}*/
+
+/*.citiesAndTel {*/
+/*    width: 100%;*/
+/*    display: flex;*/
+/*}*/
+
+/*.cities {*/
+/*    width: 40%;*/
+/*}*/
+
+/*.numberAndContact {*/
+/*    width: 60%;*/
+/*}*/
+
+/*.topCities {*/
+/*    font: 1.8vh Raleway;*/
+/*    color: white;*/
+/*    padding-left: 1vw;*/
+/*}*/
+
+/*.capitals {*/
+/*    padding-top: 0.2vh;*/
+/*    column-count: 2;*/
+/*    column-width: min-content;*/
+/*    width: 12.9vw;*/
+/*    padding-left: 1vw;*/
+/*}*/
+
+/*.telephone {*/
+/*    float: right;*/
+/*    width: 14.5vw;*/
+/*    font: Bold 4.9vh Bebas Neue;*/
+/*    text-transform: capitalize;*/
+/*    color: #EA2340;*/
+/*    padding-right: 8.35vw;*/
+/*    text-align: right;*/
+/*}*/
+
+/*.address {*/
+/*    float: right;*/
+/*    width: 31.59vw;*/
+/*    font: 1.8vh Raleway;*/
+/*    color: white;*/
+/*    text-align: right;*/
+/*    padding-right: 8.35vw;*/
+/*    padding-top: 3.2vh;*/
+/*}*/
+
+/*.capitals li, a {*/
+/*    list-style-type: none;*/
+/*    text-decoration: none;*/
+/*    color: #FFFFFF;*/
+/*    font: 1.8vh Raleway;*/
+/*}*/
+
+/*!*======================================== registration page ============================*!*/
+
+/*.reg_form {*/
+/*    position: absolute;*/
+/*    right: 0;*/
+/*    max-width: 100%;*/
+/*    width: 31.7vw;*/
+/*    height: 100vh;*/
+/*    background-color: white;*/
+/*    box-shadow: 0 3px 6px #0000005F;*/
+/*}*/
+
+/*.reg_form button {*/
+/*    border: 0;*/
+/*    margin-left: 3.86vw;*/
+/*    margin-top: 5.49vh;*/
+/*    width: 9.76vw;*/
+/*    height: 5.45vh;*/
+/*    background-color: #EA2340;*/
+/*    font: bold 2vh Raleway;*/
+/*    color: white;*/
+/*    cursor: pointer;*/
+/*    box-shadow: 0 3px 6px #00000052;*/
+/*}*/
+
+/*.reg_title {*/
+/*    font-family: Raleway, sans-serif;*/
+/*    font-weight: 900;*/
+/*    font-size: 3.6vh;*/
+/*    color: #EA2340;*/
+/*    padding-top: 12.38vh;*/
+/*    margin-bottom: 1px;*/
+/*}*/
+
+/*.back_img {*/
+/*    background-image: url("../assets/img/742079-PSISLA-798.png");*/
+/*    background-position: right bottom;*/
+/*    background-size: cover;*/
+/*    width: 67vw;*/
+/*    height: 86vh;*/
+/*}*/
+
+/*.registration {*/
+/*    margin-left: 3.86vw;*/
+/*}*/
+
+/*.reg_check {*/
+/*    font-family: Raleway, sans-serif;*/
+/*    font-size: 1.7vh;*/
+/*    color: #06263998;*/
+/*    margin-top: 3vh;*/
+/*    margin-left: 3.7vw;*/
+/*}*/
+
+/*.reg_check a {*/
+/*    color: #06263998;*/
+/*}*/
+
+/*#name, #last_name, #email, #pass {*/
+/*    margin-bottom: 1.7vh;*/
+/*}*/
+
+/*!*======================================== login page ============================*!*/
+/*.log_forgot {*/
+/*    color: #06263998;*/
+/*    font-family: Raleway, sans-serif;*/
+/*    font-size: 1.7vh;*/
+/*    margin-top: 20.10vh;*/
+/*    margin-left: 3.86vw;*/
+/*}*/
+
+/*!*==========================================Let the Car work styles==========================*!*/
+
+/*.upload_form {*/
+/*    width: 100%;*/
+/*    list-style-type: none;*/
+/*}*/
+
+/*.upload_form .title_1 {*/
+/*    width: 33.31vw;*/
+/*    font: 900 3.63vh Raleway;*/
+/*    color: #EA2340;*/
+/*    padding-top: 11.81vh;*/
+/*}*/
+
+/*.upload_form .title_2 {*/
+/*    padding-top: 3.2vh;*/
+/*    width: 34vw;*/
+/*    font: 1.81vh Raleway;*/
+/*    color: #062639;*/
+/*    margin-bottom: 6.58vh;*/
+/*}*/
+
+/*.car_details p {*/
+/*    color: #062639;*/
+/*    font: 400 3.8vh Raleway;*/
+/*}*/
+
+/*.upload_form p {*/
+/*    margin-bottom: 3.4vh;*/
+/*}*/
+
+/*.car_details input {*/
+/*    width: 17vw;*/
+/*    margin-bottom: 3.2vh;*/
+/*    border: 1px solid #5F727E;*/
+/*    padding: 25px 20px 10px 10px;*/
+/*}*/
+
+/*.upload_form textarea {*/
+/*    width: 37.94vw;*/
+/*    height: 35.21vh;*/
+/*    resize: none;*/
+/*    padding: 25px 20px 10px 10px;*/
+/*    margin-bottom: 6.58vh;*/
+/*}*/
+
+/*.upload_form button {*/
+/*    border: 0;*/
+/*    !*margin-left: 3.86vw;*!*/
+/*    margin-top: 19.65vh;*/
+/*    margin-bottom: 19.62vh;*/
+/*    width: 9.76vw;*/
+/*    height: 5.45vh;*/
+/*    background-color: #EA2340;*/
+/*    font: bold 2vh Raleway;*/
+/*    color: white;*/
+/*    cursor: pointer;*/
+/*    box-shadow: 0 3px 6px #00000052;*/
+/*}*/
+
+/*.car-det{*/
+/*     margin-top: 6.58vh;*/
+/* }*/
+
+/*.car-det-about{*/
+/*    margin-top: 13.85vh;*/
+/*}*/
+
+/*.car-det-perday{*/
+/*    margin-top: 6.58vh;*/
+/*}*/
+
+/*!*==========================================Still available in your area==========================*!*/
+
+/*.still{*/
+/*    display: flex;*/
+/*    margin-top: 9.31vh;*/
+/*}*/
+
+/*.slider {*/
+/*    background-image: url("../assets/img/big_azlk.png");*/
+/*    background-size: cover;*/
+/*    !*position: relative;*!*/
+/*    margin-left: 8.31vw;*/
+/*    margin-right: 0.5vw;*/
+/*    width: 55.14vw;*/
+/*    height: 68.5vh;*/
+/*}*/
+
+/*.main_find {*/
+/*    position: absolute;*/
+/*    margin-top: 17vh;*/
+/*    max-width: 100%;*/
+/*    width: 31.7vw;*/
+/*    height: 43vh;*/
+/*    background-color: white;*/
+/*    box-shadow: 0 3px 6px #0000005F;*/
+/*}*/
+
+/*form {*/
+/*    margin-left: 10vw;*/
+/*}*/
+
+/*.find_title {*/
+/*    font-family: Raleway, sans-serif;*/
+/*    font-weight: 900;*/
+/*    font-size: 3.6vh;*/
+/*    color: #EA2340;*/
+/*    padding-top: 4vh;*/
+/*    margin-bottom: 1px;*/
+/*}*/
+
+/*.find_under_title {*/
+/*    font-family: Raleway, sans-serif;*/
+/*    font-size: 0.8vw;*/
+/*    color: #06263998;*/
+/*    margin-bottom: 2.84vh;*/
+/*}*/
+
+/*.still_form button {*/
+/*    border: 0;*/
+/*    margin-left: 3.86vw;*/
+/*    margin-top: 2.5vh;*/
+/*    width: 9.7vw;*/
+/*    height: 6.5vh;*/
+/*    background-color: #EA2340;*/
+/*    font: bold 2vh Raleway;*/
+/*    color: white;*/
+/*    cursor: pointer;*/
+/*}*/
+
+/*.still_form {*/
+/*    width: 35.8vw;*/
+/*    height: 67.81vh;*/
+/*    background-color: white;*/
+/*    box-shadow: 0 3px 6px #0000005F;*/
+/*}*/
+
+/*.still_title {*/
+/*    font-family: Raleway, sans-serif;*/
+/*    font-weight: 900;*/
+/*    font-size: 3.6vh;*/
+/*    color: #EA2340;*/
+/*    margin-top: 7.25vh;*/
+/*    margin-bottom: 6.13vh;*/
+/*}*/
+
+/*.still_descr{*/
+/*    display: flex;*/
+/*    margin-left: 15.22vw;*/
+/*    margin-top: 3vh;*/
+/*    font: bold 6.13vh Bebas Neue;*/
+/*}*/
+
+/*.descr_year{*/
+/*    font: bold 3.63vh Bebas Neue;*/
+/*    color: #06263998;*/
+/*    padding-top: 2vh;*/
+/*    margin-left: 0.7vw;*/
+/*}*/
+
+/*.descr_price{*/
+/*    width: 10vw;*/
+/*    height: 10.33vh;*/
+/*    background: white;*/
+/*    margin-left: 11.53vw;*/
+/*    margin-top: -5.3vh;*/
+/*    margin-bottom: 2.6vh;*/
+/*    box-shadow: 0 3px 6px #00000052;*/
+/*    display: flex;*/
+/*}*/
+
+/*.still_descr .amount, .currency{*/
+/*    color: #062639;*/
+/*}*/
+
+/*.rating{*/
+/*    width: 30vw;*/
+/*    height: 3.84vh;*/
+/*    background-color: #EA2340;*/
+/*    clip-path: polygon(0 0, 100% 0, 87% 100%, 0 100%);*/
+/*    text-align: right;*/
+/*    color: white;*/
+/*}*/
+
+/*.rating .trips{*/
+/*    margin-right: 4.5vw;*/
+/*    font: 1.47vh Raleway;*/
+/*}*/
+
+/*.car_info, .car_descr{*/
+/*    font: 1.9vh Raleway;*/
+/*    width: 46vw;*/
+/*    display: flex;*/
+/*    margin-left: 15.22vw;*/
+/*    color: #062639;*/
+/*    margin-top: 5.73vh;*/
+/*}*/
+
+/*.info_location, .info_about, .info_features, .car_dets{*/
+/*    display: flex;*/
+/*}*/
+
+/*.car_dets{*/
+/*    width: 20.46vw;*/
+/*}*/
+
+/*.car_descr_info{*/
+/*    line-height: 2.8vh;*/
+/*    width: 19.86vw;*/
+/*}*/
+
+/*ul{*/
+/*    list-style: none;*/
+/*    line-height: 2.8vh;*/
+/*}*/
+
+/*li{*/
+/*    display: block;*/
+/*}*/
+
+/*.box_props{*/
+/*    color: #06263998;*/
+/*    text-align: right;*/
+/*    margin-right: 2.44vw;*/
+/*    !*margin-left: 3vw;*!*/
+/*}*/
+
+/*.still_info{*/
+/*    display: flex;*/
+/*    width: 100%;*/
+/*}*/
+
+/*.still_info_des{*/
+/*    width: 64%;*/
+/*}*/
+/*.still_map{*/
+/*    width: 36vw;*/
+/*    height: 57vh;*/
+/*    box-shadow: 0 3px 6px #0000005F;*/
+/*}*/
+
+/*#map{*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*}*/
+
+/*iframe{*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*}*/
+
+/*.still_feed {*/
+/*    width: 100%;*/
+/*    overflow: hidden;*/
+/*    margin-bottom: 11vh;*/
+/*}*/
+
+/*.still_feeds_list {*/
+/*    margin-top: 10vh;*/
+/*    margin-left: 5vw;*/
+/*}*/
+
+/*.still_feeds_list .feed_user {*/
+/*    padding: 25px 45px 25px 125px;*/
+/*    flex-basis: calc(50% - 19.76vw);*/
+/*    height: 11.36vh;*/
+/*}*/
+
+/*!*========================================Search page  -  main section=====================================*!*/
+
+/*.search_main{*/
+/*    padding-top: 5vh;*/
+/*    position: relative;*/
+/*    width:100%;*/
+/*    overflow: hidden;*/
+/*    display: flex;*/
+/*}*/
+
+/*!*Sidebar-menu*!*/
+
+/*.sidebar_menu{*/
+/*    display: flex;*/
+/*}*/
+
+/*.sidebar_menu a{*/
+/*    display: flex;*/
+/*}*/
+
+/*.sidebar_menu_search{*/
+/*    width: 17.8vw;*/
+/*    background-color: #EA2340;*/
+/*    padding: 1.6vh 0;*/
+/*    clip-path: polygon(0 0, 85% 0, 100% 100%, 0% 100%);*/
+/*}*/
+
+/*.sidebar_menu_search{*/
+/*    width: 17.8vw;*/
+/*    background-color: #EA2340;*/
+/*    padding: 1.6vh 0;*/
+/*    clip-path: polygon(0 0, 85% 0, 100% 100%, 0% 100%);*/
+/*}*/
+
+/*.sidebar_menu_search img{*/
+/*    width: 1.39vw;*/
+/*    height: 3vh;*/
+/*    margin-left: 10vw;*/
+/*    padding-right: 0.6vw;*/
+/*}*/
+
+/*.sidebar_menu p{*/
+/*    margin-top: 0.32vh;*/
+/*}*/
+
+/*.sidebar_menu_filters{*/
+/*    -webkit-clip-path: polygon(0 20%, 65% 20%, 95% 90%, 30% 90%);*/
+/*    width:7vw;*/
+/*    background-color: #062639;*/
+/*    padding: 2.08vh 0;*/
+/*    position: absolute;*/
+/*    margin-left: 15.8vw;*/
+/*}*/
+
+/*.sidebar_menu_filters img{*/
+/*    height: 2.5vh;*/
+/*    margin-left: 2.8vw;*/
+/*}*/
+
+/*.sidebar_menu_map{*/
+/*    -webkit-clip-path: polygon(0 20%, 65% 20%, 95% 90%, 30% 90%);*/
+/*    width:7vw;*/
+/*    background-color: #6C7E8B;*/
+/*    padding: 2.08vh 0;*/
+/*    position: absolute;*/
+/*    margin-left: 20.6vw;*/
+/*}*/
+
+/*.sidebar_menu_map img{*/
+/*    height: 2.5vh;*/
+/*    margin-left: 3vw;*/
+/*}*/
+
+/*!*Sidebar-content*!*/
+
+/*.sidebar_content h4{*/
+/*    font-size: 2.24vh;*/
+/*    color: #6C7E8B;*/
+/*    font-family: 'Raleway', sans-serif;*/
+/*    margin-bottom: 2.4vh;*/
+/*    position: relative;*/
+/*}*/
+
+/*.sidebar_content{*/
+/*    background: #FFFFFF 0 0 no-repeat padding-box;*/
+/*    box-shadow: 0 3px 6px #0000005F;*/
+/*    width: 22vw;*/
+/*    height: 75vh;*/
+/*    border-top:7px solid #EA2340;*/
+/*    padding-left: 10vw;*/
+/*    padding-top: 4vh;*/
+/*    margin-top: -0.16vh;*/
+/*}*/
+
+/*.sidebar_content p{*/
+/*    font-family: Raleway, sans-serif;*/
+/*    font-weight: 900;*/
+/*    font-size: 3.6vh;*/
+/*    color: #EA2340;*/
+/*}*/
+
+/*.sidebar_content_form{*/
+/*    margin-top: 3.4vh;*/
+/*    margin-bottom: 5vh;*/
+/*}*/
+
+/*.sidebar_content_form input{*/
+/*    position: relative;*/
+/*    max-width: 19.27vw;*/
+/*    width: 100%;*/
+/*    margin-bottom: 1.12vh;*/
+/*    font-family: 'Raleway', serif;*/
+/*}*/
+
+/*.sidebar_content_form input[type='date']{*/
+/*    padding-left: 5.49vw;*/
+/*    max-width: 13.5vw;*/
+/*    height: 5vh;*/
+/*}*/
+
+/*!*Add Placeholder to Date input*!*/
+/*input[type='date']:after{*/
+/*    content: attr(placeholder);*/
+/*    position: absolute;*/
+/*    left: 0.36vw;*/
+/*    padding-top: 2.2vh;*/
+/*    font-size: 1.5vh;*/
+/*}*/
+
+/*.sidebar_content_form input:focus,*/
+/*.sidebar_content_form select:focus{*/
+/*    outline: none;*/
+/*}*/
+
+/*.sidebar_sort{*/
+/*    position: relative;*/
+/*    margin-bottom: 8vh;*/
+/*    width: 19vw;*/
+/*}*/
+/*.sidebar_sort > div{*/
+/*    display: inline-block;*/
+/*    padding: 1.6vh 0;*/
+/*    font-family: 'Raleway', sans-serif;*/
+/*    font-size: 2.1vh;*/
+/*    position: relative;*/
+/*    cursor: pointer;*/
+/*}*/
+/*.sidebar_sort .sort_option_high{*/
+/*    padding-left: 0.36vw;*/
+/*    padding-right: 2.34vw;*/
+/*    color:#06263998;*/
+/*    background-color: #fff;*/
+/*    border:1px solid #6C7E8B;*/
+/*    -webkit-clip-path: polygon(0 0, 85% 0, 100% 100%, 0% 100%);*/
+/*    clip-path: polygon(0 0, 85% 0, 100% 100%, 0% 100%);*/
+/*}*/
+
+/*.sidebar_sort .sort_option_low{*/
+/*    padding-left: 2.56vw;*/
+/*    padding-right:0.36vw;*/
+/*    color:#06263998;*/
+/*    right: 0;*/
+/*    position: absolute;*/
+/*    background-color: #fff;*/
+/*    border:1px solid #6C7E8B;*/
+/*    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 15% 100%);*/
+/*    clip-path: polygon(0 0, 100% 0, 100% 100%, 15% 100%);*/
+/*}*/
+/*.sidebar_sort .active,*/
+/*.sidebar_sort > div:hover{*/
+/*    background-color: #06263998;*/
+/*    color:#fff;*/
+/*}*/
+
+/*.sidebar_content h4 span{*/
+/*    color: black;*/
+/*    position: absolute;*/
+/*    right: 3vw;*/
+/*}*/
+
+/*.search_slider {*/
+/*    -webkit-appearance: none;*/
+/*    width: 85%;*/
+/*    height: 4vh;*/
+/*    background: #d3d3d3;*/
+/*    outline: none;*/
+/*    opacity: 0.7;*/
+/*    -webkit-transition: .2s;*/
+/*    transition: opacity .2s;*/
+/*}*/
+
+/*.search_slider:hover {*/
+/*    opacity: 1;*/
+/*}*/
+
+/*.search_slider::-webkit-slider-thumb {*/
+/*    -webkit-appearance: none;*/
+/*    appearance: none;*/
+/*    width: 1.83vw;*/
+/*    height: 4vh;*/
+/*    background: #EA2340;*/
+/*    cursor: pointer;*/
+/*}*/
+
+/*.search_slider::-moz-range-thumb {*/
+/*    width: 1.83vw;*/
+/*    height: 4vh;*/
+/*    background: #EA2340;*/
+/*    cursor: pointer;*/
+/*}*/
+
+/*!*!*!*Sidebar ENDS*!/////////////////////////////////////////////////////////!*/
+
+/*.search_content{*/
+/*    height: 87vh;*/
+/*    overflow-y: scroll;*/
+/*}*/
+
+/*.search_cars{*/
+/*    position: relative;*/
+/*    margin-top:6vh;*/
+/*    display: flex;*/
+/*    flex-flow: row wrap;*/
+/*    justify-content: center;*/
+/*}*/
+/*.search_cars .car-item{*/
+/*    max-width: 360px;*/
+/*    padding: 0 5px;*/
+/*}*/
+/*.car-item__image img{*/
+/*    width:100%;*/
+/*}*/
+/*.car-item__title,*/
+/*.car-item__price{*/
+/*    display: inline-block;*/
+/*}*/
+/*.car-item__title h4,*/
+/*.car-item__title h4 span{*/
+/*    font-family: 'Bebas Neue', sans-serif;*/
+/*    line-height: 29px;*/
+/*    font-size: 3.52vh;*/
+/*    text-transform: uppercase;*/
+/*    color:#062639;*/
+/*}*/
+/*.car-item__title h4 span{*/
+/*    font-size: 2.88vh;*/
+/*    color:#06263998;*/
+/*    margin-left: 0.36vw;*/
+/*}*/
+/*.car-item__price{*/
+/*    position: relative;*/
+/*    width: 5vw;*/
+/*    padding: 0 12px;*/
+/*    top: -20px;*/
+/*    right: 10px;*/
+/*    float: right;*/
+/*    background: #FFFFFF 0 0 no-repeat padding-box;*/
+/*    box-shadow: 0 3px 6px #00000052;*/
+/*}*/
+/*.car-item__price span:first-child{*/
+/*    display: inline-block;*/
+/*    font-family: 'Bebas Neue', sans-serif;*/
+/*    padding-left: 7px;*/
+/*    font-size: 45px;*/
+/*    letter-spacing: 0;*/
+/*    color:#062639;*/
+/*}*/
+/*.car-item__price span:first-child:after{*/
+/*    content: "$";*/
+/*    color: #062639;*/
+/*    font-size: 15px;*/
+/*    font-family: Raleway, sans-serif;*/
+/*    font-weight: 700;*/
+/*    display: block;*/
+/*    position: absolute;*/
+/*    top: 6px;*/
+/*    left: 6px;*/
+/*}*/
+/*.car-item__price span.car-item__price-termin{*/
+/*    font-family: 'Bebas Neue', sans-serif;*/
+/*    transform: rotate(-90deg);*/
+/*    display: block;*/
+/*    position: absolute;*/
+/*    font-size: 12px;*/
+/*    color:#06263998;*/
+/*    letter-spacing: 0;*/
+/*    text-transform: uppercase;*/
+/*    right: -5px;*/
+/*    top: 15px;*/
+/*}*/
+
+/*!*========================================Search page  -  filters section=====================================*!*/
+
+/*select{*/
+/*    margin-bottom: 1.8vh;*/
+/*}*/
+
+/*option {*/
+/*    font-size: 2.4vh;*/
+/*}*/
+
+

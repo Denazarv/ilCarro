@@ -1,0 +1,13 @@
+.sidebar_menu_search{
+    width: 17.8vw;
+    background-color: #EA2340;
+    padding: 1.6vh 0;
+    clip-path: polygon(0 0, 85% 0, 100% 100%, 0% 100%);
+}
+
+.sidebar_menu_search img{
+    width: 1.39vw;
+    height: 3vh;
+    margin-left: 10vw;
+    padding-right: 0.6vw;
+}

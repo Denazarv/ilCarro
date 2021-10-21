@@ -1,0 +1,32 @@
+.sidebar_content_form{
+    margin-top: 3.4vh;
+    margin-bottom: 5vh;
+}
+
+.sidebar_content_form input{
+    position: relative;
+    max-width: 19.27vw;
+    width: 100%;
+    margin-bottom: 1.12vh;
+    font-family: 'Raleway', serif;
+}
+
+.sidebar_content_form input[type='date']{
+    padding-left: 5.49vw;
+    max-width: 13.5vw;
+    height: 5vh;
+}
+
+/*Add Placeholder to Date input*/
+input[type='date']:after{
+    content: attr(placeholder);
+    position: absolute;
+    left: 0.36vw;
+    padding-top: 2.2vh;
+    font-size: 1.5vh;
+}
+
+.sidebar_content_form input:focus,
+.sidebar_content_form select:focus{
+    outline: none;
+}

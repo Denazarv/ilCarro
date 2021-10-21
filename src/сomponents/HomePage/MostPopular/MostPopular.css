@@ -1,0 +1,135 @@
+/*======================================== 3 most popular choices ============================*/
+
+/*Styles for blocks with TOP 3 cars TEXT*/
+
+.most_popular {
+    display: flex;
+    background-color: white;
+    width: 100%;
+    height: 38vh;
+    align-items: center;
+}
+
+.most_number {
+    font: Bold 16.9vh Bebas Neue;
+    color: #EA2340;
+    padding-left: 8.5vw;
+}
+
+.most_text {
+    padding-left: 0.88vw;
+    font: Bold 6.1vh Bebas Neue;
+    letter-spacing: 0;
+    color: #062639;
+    text-transform: capitalize;
+}
+
+.most_descr {
+    width: 33.37vw;
+    font: 1.82vh Raleway;
+    letter-spacing: 0;
+    color: #062639;
+    padding-left: 25.4vw;
+}
+
+
+/*Styles for blocks with TOP 3 cars IMAGES*/
+
+.car-box_blue {
+    position: relative;
+    background-color: #062639;
+    width: 100%;
+    height: 62.8vh;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.car-box_red {
+    background-color: #EA2340;
+    width: 100%;
+    height: 54.5vh;
+    padding-top: 2.27vh;
+    clip-path: polygon(94% 0, 100% 25%, 100% 100%, 6% 100%, 0% 76%, 0 0);
+}
+
+.car-box_red img {
+    position: absolute;
+    width: 54.63vw;
+    height: 46.91vh;
+    margin-left: -11.62vw;
+}
+
+.car-box_img1 {
+}
+
+.car-box_img2 {
+    left: 33%;
+}
+
+.car-box_img3 {
+    left: 66%;
+}
+
+/*Styles for blocks with TOP 3 PRICES*/
+
+.carsPrices {
+    display: flex;
+    /*margin-top: -70px;*/
+    width: 100%;
+}
+
+.car_names {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: -12vh;
+}
+
+.top1car, .top2car, .top3car {
+    color: white;
+    text-transform: uppercase;
+    font: Bold 3.63vh Bebas Neue;
+}
+
+.top1car {
+    margin-left: -2vw;
+}
+
+.topPrice1, .topPrice2, .topPrice3 {
+    width: 10vw;
+    height: 10.33vh;
+    background: white;
+    margin: auto;
+    box-shadow: 0 3px 6px #00000052;
+    display: flex;
+}
+
+.currency {
+    font: Bold 3.5vh Raleway;
+    text-align: center;
+    color: #EA2340;
+    width: 25%;
+    margin-top: 1vh;
+}
+
+.amount {
+    font: Bold 10vmin Bebas Neue;
+    letter-spacing: 0;
+    text-transform: capitalize;
+    color: #EA2340;
+    text-align: center;
+    width: 40%;
+
+}
+
+.perDay {
+    font: Bold 2.7vh Bebas Neue;
+    letter-spacing: 0;
+    text-transform: capitalize;
+    color: #06263998;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    text-align: center;
+    padding: 0.5vw;
+    width: 30%;
+}

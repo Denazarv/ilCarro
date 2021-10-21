@@ -1,0 +1,22 @@
+.menu_list {
+    display: flex;
+}
+
+.menu_list a {
+    font: Bold 1vmax Raleway;
+    color: white;
+    text-decoration: none;
+    padding: 2.3vh 1.7vw 5vh;
+}
+
+/*.menu_list a:hover {*/
+/*    background-color: #EA2340;*/
+/*}*/
+
+.menu_list .active{
+    background-color: #EA2340;
+}
+
+li {
+    list-style-type: none;
+}

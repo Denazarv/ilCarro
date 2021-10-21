@@ -1,0 +1,67 @@
+.car-item{
+    max-width: 26.35vw;
+    height: 42vh;
+    padding: 0 5px;
+}
+
+.car-item__image img{
+    width:100%;
+}
+.car-item__title,
+.car-item__price{
+    display: inline-block;
+}
+.car-item__title h4,
+.car-item__title h4 span{
+    font-family: 'Bebas Neue', sans-serif;
+    line-height: 29px;
+    font-size: 3.52vh;
+    text-transform: uppercase;
+    color:#062639;
+}
+.car-item__title h4 span{
+    font-size: 2.88vh;
+    color:#06263998;
+    margin-left: 0.36vw;
+}
+.car-item__price{
+    position: relative;
+    width: 5vw;
+    padding: 0 12px;
+    top: -8vh;
+    right: 0.73vw;
+    float: right;
+    background: #FFFFFF 0 0 no-repeat padding-box;
+    box-shadow: 0 3px 6px #00000052;
+}
+.car-item__price span:first-child{
+    display: inline-block;
+    font-family: 'Bebas Neue', sans-serif;
+    padding-left: 7px;
+    font-size: 45px;
+    letter-spacing: 0;
+    color:#062639;
+}
+.car-item__price span:first-child:after{
+    content: "$";
+    color: #062639;
+    font-size: 15px;
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    display: block;
+    position: absolute;
+    top: 6px;
+    left: 6px;
+}
+.car-item__price span.car-item__price-termin{
+    font-family: 'Bebas Neue', sans-serif;
+    transform: rotate(-90deg);
+    display: block;
+    position: absolute;
+    font-size: 12px;
+    color:#06263998;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    right: -5px;
+    top: 15px;
+}

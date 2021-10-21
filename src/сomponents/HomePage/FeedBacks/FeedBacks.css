@@ -1,0 +1,57 @@
+
+.feed_main {
+    width: 100%;
+    height: 93vh;
+    overflow: hidden;
+    margin-bottom: 11.36vh;
+}
+
+.feed_main_topic {
+    width: 30%;
+    font: Bold 6.1vh Bebas Neue;
+    letter-spacing: 0;
+    color: #062639;
+    text-transform: uppercase;
+    padding: 8vh 0;
+    margin-left: 16.58vw;
+}
+
+.feeds_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.feeds_list .feed_user {
+    padding: 25px 45px 25px 125px;
+    flex-basis: calc(50% - 19.76vw);
+    height: 11.36vh;
+}
+
+.feed_user img {
+    border-radius: 4.67vw;
+    float: left;
+    margin-right: 0.9vw;
+}
+
+.feed_user .feed_text {
+    display: block;
+    width: 30vw;
+    height: 9.11vh;
+    font: 400 1.8vh Raleway;
+
+}
+
+.feed_user .name_user {
+    font: Bold 1.8vh Raleway;
+    color: #EA2340;
+    /*padding-top: 2.27vh;*/
+    padding-right: 2.59vw;
+    float: left;
+}
+
+.feed_user .feed_date {
+    /*margin-top: 2.27vh;*/
+    color: #06263998;
+    font: 400 1.47vh Raleway;
+}
